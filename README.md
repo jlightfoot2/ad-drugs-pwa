@@ -11,6 +11,7 @@
 * [Reactjs Tutorial](https://facebook.github.io/react/tutorial/tutorial.html)
 * [Reduxjs](http://redux.js.org/docs/basics/)
 
+I'm currently building this app with nodejs 6.x
 
 ### Installation
 

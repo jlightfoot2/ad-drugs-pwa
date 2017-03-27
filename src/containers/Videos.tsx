@@ -20,7 +20,8 @@ const getCols = (device) => {
 const stateToProps = (state) => {
   return {
     videos: videoIds.map(id => videos[id]),
-    cols: getCols(state.device)
+    cols: getCols(state.device),
+    title: 'Alcohol & Drugs Videos'
   }
 }
 const dispatchToProps = (dispatch) => {

@@ -15,6 +15,7 @@ interface MyProps {
   appBarTitle(title: string): any;
   videos: any[];
   cols: number;
+  title: string;
 }
 
 interface MyState {
@@ -23,16 +24,16 @@ interface MyState {
 
 export default class Videos extends React.Component<MyProps, MyState> {
   componentWillMount(){
-      this.props.appBarTitle && this.props.appBarTitle('Family Videos');
+      this.props.appBarTitle && this.props.appBarTitle(this.props.title);
   }
   componentWillReceiveProps(nextProps) {
-      this.props.appBarTitle && this.props.appBarTitle('Family Videos');
+      this.props.appBarTitle && this.props.appBarTitle(this.props.title);
   }
 
   render(){
 
   var {videos, appBarTitle, cols} = this.props;
-    console.log(cols);
+ 
     return (
     <div>
       <GridList

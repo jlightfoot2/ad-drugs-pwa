@@ -4,8 +4,6 @@ import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
 
 const computeScore = (assessment,results) => {
-      console.log(assessment);
-      console.log(results);
 
     function countCompleted (answers) {
       var count = 0;
@@ -21,7 +19,7 @@ const computeScore = (assessment,results) => {
 
     function tallyScore (answers, questions) {
       var total = 0;
-      console.log(questions);
+   
       Object.keys(questions).map(function (idx) {
           let question = questions[idx];
 
@@ -29,13 +27,15 @@ const computeScore = (assessment,results) => {
           let choices = questions[idx].choices;
           console.log(choiceValue);
           console.log(choices);
-          choices.map((choice) => {
-            if(choice.value === choiceValue){
-              total += parseInt(choice.score);
-            }
-          });
+          if(choices){
+            choices.map((choice) => {
+              if(choice.value === choiceValue){
+                total += parseInt(choice.score);
+              }
+            });
+          }
       });
-      console.log(total);
+
       return total;
     }
 
@@ -50,16 +50,16 @@ function getDescription(tally, assessment) {
           return true;
         }
         return false;
-      })//[0] || assessment.scoring[0];
+      })
 
-    
-      return score[0]
+
+      return score.length ? score[0] : assessment.scoring[0]
 }
 
 const stateToProps = (state,ownProps) => {
  // ownProps.params.id
   let assessment = assessments[ownProps.params.id] ? assessments[ownProps.params.id] : assessments['1'];
-  let score = state.assessmentResults[ownProps.params.id] ? computeScore(assessment,state.assessmentResults[ownProps.params.id]) : 0;
+  let score = assessment.calcScore(state.assessmentResults[ownProps.params.id]);
   let description = getDescription(score,assessment);
   
   return {

@@ -8,7 +8,6 @@ import {addAssessmentResult} from '../actions/assessments'
 
 function validate(data){
   let hasErrors = false;
-  console.log(data);
   const reduceCb = (errors, name) => {
     if(data[name].length === 0){
       hasErrors = true;
@@ -36,6 +35,7 @@ const stateToProps = (state,ownProps) => {
     values: state.assessmentResults[ownProps.params.id] ? state.assessmentResults[ownProps.params.id] : false
   }
 }
+
 const dispatchToProps = (dispatch,ownProps) => {
   return {
     submitData: (data) => {

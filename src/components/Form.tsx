@@ -65,7 +65,9 @@ export default class Form extends React.Component<Props, State>{
     handleSubmit = (event) => {
       const {submitData,validateData} = this.props;
 
-      const validationResponse = validateData(this.state.values);
+      const possibleItems = this.props.items.reduce(reduceCb,{});
+
+      const validationResponse = validateData({...possibleItems,...this.state.values});
 
       this.setState({errors: validationResponse.data});
       if(validationResponse.isValid){

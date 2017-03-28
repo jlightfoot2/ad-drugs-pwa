@@ -22,6 +22,7 @@ function validate(data){
   const errors = Object.keys(data)
     .map((propName) => propName)
     .reduce(reduceCb,{});
+    console.log(errors);
   return {
     data: errors,
     isValid: !hasErrors
@@ -30,9 +31,14 @@ function validate(data){
 
 
 const stateToProps = (state,ownProps) => {
+  let questions = [];
+  if(typeof assessments[ownProps.params.id] !== 'undefined'){
+    questions = assessments[ownProps.params.id].calcQuestions({})
+  }
   return {
     item: assessments[ownProps.params.id] as ItemInterface,
-    values: state.assessmentResults[ownProps.params.id] ? state.assessmentResults[ownProps.params.id] : false
+    values: state.assessmentResults[ownProps.params.id] ? state.assessmentResults[ownProps.params.id] : false,
+    questions
   }
 }
 

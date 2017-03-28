@@ -14,6 +14,7 @@ export interface Props {
   submitData(data: any): void;
   validateData(data: any): ValidationResultInterface; 
   cancel(): void;
+  questions: any;
 }
 
 export interface State { 
@@ -23,10 +24,9 @@ export interface State {
 export default class Assessment extends React.Component<Props, State> {
     constructor (props) {
       super(props);
-      const {item} = this.props;
-      let calcedQuestions = item.calcQuestions({});
+      const {item,questions} = this.props;
       this.state = {
-        questions: calcedQuestions ? calcedQuestions : item.questions
+        questions: questions
       };
     }
 

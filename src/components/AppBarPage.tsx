@@ -17,6 +17,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import {push, replace} from 'react-router-redux';
 import {UpdateDialogContainer} from '../lib/local-t2-sw-redux/components';
+import AppSnackBar from './AppSnackBar'
 
 //import {FlashMessageInterface} from './data/workbook';
 
@@ -47,8 +48,6 @@ interface MyProps {
   pathOnTouchTap(path:string): any;
   appConfig: any;
   leftIcon: any;
-  //isAuthed: boolean;
-
 }
 
 interface MyState {
@@ -112,9 +111,11 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
                   </div>
                 </div>
                 <UpdateDialogContainer />
+                <AppSnackBar message={'test test'} open={true} />
                 {/*
                 <Eula />
                 <SnackBarNotice flash={flash} />
+
                 */}
         </div>
     );

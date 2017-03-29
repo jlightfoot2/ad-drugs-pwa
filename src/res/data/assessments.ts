@@ -42,7 +42,7 @@ export interface AssessmentInterface{
 
 const defaultCalcQuestion = function(values: any){
 
-      return null;
+      return this.questions;
 }
 
 const defaultCalcScore = function(values: any){
@@ -878,27 +878,28 @@ const sleepAssessmentQs: QuestionInterface[] = [
   makeQuestion('10','I\'ve fallen asleep driving.','select',choicesSet28),
 ]
 
-const friendsImage = require('../images/friends-form.png');
-const marriageImage  = require('../images/married.jpeg');
-const socialImage  = require('../images/Social-Society-Community-Cooperation-Network-1020332.jpg');
-const postDepSocialImage = require('../images/post-dep-social.jpg');
-const parentingConfidenceImage = require('../images/duck_parenting.jpg');
-
+const alcImage = require('../images/Alcohol_and_Drugs.jpg');
+const ptsImage = require('../images/Post_Traumatic_Stress.jpg');
+const depressImage = require('../images/Depression.jpg');
+const anxietyImage = require('../images/Anxiety.jpg');
+const panicImage = require('../images/Panic.jpg');
+const physInjuryImage = require('../images/PhysicaI_Injury_Resilience.jpg');
+const sleepImage = require('../images/Sleep.jpg');
 
 interface AssessmentTreeInterface {
   [propName: string]: AssessmentInterface;
 }
 
 const assessmentsRaw: AssessmentInterface[] = [
-  makeAssessment(1,'Alcohol and Drugs', 0, 38, AlcoholDrugsList,alcDrugsQuestions,friendsImage,calcAlcDrugQuestions,calcDrugsScore),
-  makeAssessment(2,'Post-Traumatic Stress', 17, 85,PostTraumaticStressList, ptsQuestions, marriageImage),
+  makeAssessment(1,'Alcohol and Drugs', 0, 38, AlcoholDrugsList,alcDrugsQuestions,alcImage,calcAlcDrugQuestions,calcDrugsScore),
+  makeAssessment(2,'Post-Traumatic Stress', 17, 85,PostTraumaticStressList, ptsQuestions, ptsImage),
 
-  makeAssessment(3,'Depression', 0, 27,DepressionList,depressionQuestions, socialImage),
-  makeAssessment(4,'Anxiety', 0, 21, AnxietyList,anxietyQuestions,postDepSocialImage),
-  makeAssessment(5,'Panic', 0, 60, PanicList,panicQuestions,parentingConfidenceImage,calcPanicQuestions, calcPanicScore),
+  makeAssessment(3,'Depression', 0, 27,DepressionList,depressionQuestions, depressImage),
+  makeAssessment(4,'Anxiety', 0, 21, AnxietyList,anxietyQuestions,anxietyImage),
+  makeAssessment(5,'Panic', 0, 60, PanicList,panicQuestions,panicImage,calcPanicQuestions, calcPanicScore),
 
-  makeAssessment(6,'Physical Injury Resilience', 0, 88, PhysicalInjuryResilienceList,physicalInjuryAssessmentQs,parentingConfidenceImage),
-  makeAssessment(7,'Sleep', 0, 10, SleepList,sleepAssessmentQs,parentingConfidenceImage)
+  makeAssessment(6,'Physical Injury Resilience', 0, 88, PhysicalInjuryResilienceList,physicalInjuryAssessmentQs,physInjuryImage),
+  makeAssessment(7,'Sleep', 0, 10, SleepList,sleepAssessmentQs,sleepImage)
 ]
 
 const normalData = normalize(assessmentsRaw,assessmentListSchema);

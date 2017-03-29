@@ -29,9 +29,6 @@ import AppSnackBar from './AppSnackBar'
 
 const categoryItem = (categories,pathOnTouchTap) => {
 
-  const click = () => {
-
-  };
   return(
         <MenuDrawer pathOnTouchTap={pathOnTouchTap}>
           {categories.map(cat => {
@@ -111,7 +108,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
                   </div>
                 </div>
                 <UpdateDialogContainer />
-                <AppSnackBar message={'test test'} open={true} />
+                <AppSnackBar message={'test test'} open={false} />
                 {/*
                 <Eula />
                 <SnackBarNotice flash={flash} />

@@ -1,5 +1,5 @@
-import Assessment from '../components/Assessment';
-import {ItemInterface} from '../components/Assessment';
+import Assessment, {ItemInterface} from '../components/Assessment';
+
 import {assessments} from '../res/data/assessments';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
@@ -35,6 +35,7 @@ const stateToProps = (state,ownProps) => {
   if(typeof assessments[ownProps.params.id] !== 'undefined'){
     questions = assessments[ownProps.params.id].calcQuestions({})
   }
+
   return {
     item: assessments[ownProps.params.id] as ItemInterface,
     values: state.assessmentResults[ownProps.params.id] ? state.assessmentResults[ownProps.params.id] : false,

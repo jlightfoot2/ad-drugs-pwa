@@ -4,6 +4,7 @@ import {assessmentResults,assessmentResultIds} from './assessment';
 import {device} from './device';
 import {appReducer} from '../lib/local-t2-sw-redux';
 import {navigationReducer} from '../lib/local-t2-navigation';
+import {viewReducer} from '../lib/local-t2-view';
 
 
 const defaultUser = {
@@ -22,7 +23,8 @@ const appHub = combineReducers({
   assessmentResultIds,
   device,
   app: appReducer,
-  navigation: navigationReducer
+  navigation: navigationReducer,
+  view: viewReducer
 });
 
 export default appHub;

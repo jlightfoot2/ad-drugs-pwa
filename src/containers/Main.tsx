@@ -9,12 +9,15 @@ import MenuItem from 'material-ui/MenuItem';
 import categoriesData from '../res/data/categories';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
+import {viewActions} from '../lib/local-t2-view';
+
 interface Props {
   appBarTitle(msg: string): any;
   categories: any[];
   pathOnTouchTap(path:string): any
   appConfig: any;
   parentRoute: any;
+  flashMessage: {message: string, open: boolean}
 }
 
 interface State {
@@ -41,9 +44,11 @@ const backIcon = (path) => {
 
 class AppContainer extends React.Component<Props, State>{
   render(){
-    const {categories,pathOnTouchTap,appConfig,parentRoute} = this.props;
+    
+    const {categories,pathOnTouchTap,appConfig,parentRoute,flashMessage} = this.props;
+
     const leftIcon = !parentRoute ? categoryItem(categories,pathOnTouchTap) : backIcon(parentRoute.pathname) ;
-    return <AppBarPage leftIcon={leftIcon} categories={categories} pathOnTouchTap={pathOnTouchTap} appConfig={appConfig}>
+    return <AppBarPage leftIcon={leftIcon} categories={categories} pathOnTouchTap={pathOnTouchTap} appConfig={appConfig} flashMessage={flashMessage}>
               {this.props.children}
            </AppBarPage>
   }
@@ -55,7 +60,8 @@ const stateToProps = (state) => {
     appConfig: {
       parentSite: 'http://afterdeployment.dcoe.mil'
     },
-    parentRoute: state.navigation.paths.parent
+    parentRoute: state.navigation.paths.parent,
+    flashMessage: state.view.flash
   }
 }
 const dispatchToProps = (distatch,ownProps) => {

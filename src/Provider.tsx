@@ -1,13 +1,13 @@
 import Theme from './components/Theme';
 import Home from './containers/Home';
-import AppBarPage from './components/AppBarPage';
 import Dashboard from './components/Dashboard';
 import NotFound from './components/NotFound';
 import PageContainer from './containers/Main';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import {Router, hashHistory, browserHistory} from 'react-router';
+import thunkMiddleware from 'redux-thunk';
+import {Router, hashHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {navigationCreateMiddleware} from './lib/local-t2-navigation';
 import {registerPromise} from './lib/local-t2-sw-redux';
@@ -16,14 +16,18 @@ import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
 import {windowResize} from './actions/device';
 import navigationConfig from './navigationConfig';
+
+
 let store = createStore(reducer,
     applyMiddleware(
         routerMiddleware(hashHistory),
+        thunkMiddleware,
         navigationCreateMiddleware(navigationConfig)
       )
   );
 
 var _timeOutResizeId = null;
+
 window.onresize = () => {
    if(_timeOutResizeId){
      clearTimeout(_timeOutResizeId);
@@ -41,27 +45,6 @@ if (__DEVTOOLS__) {
   store.subscribe(() => {
     console.log(store.getState()); // list entire state of app in js console. Essential for debugging.
   });
-}
-
-interface MyProps {
-  [propName: string]: any;
-}
-
-interface MyState {
-  [propName: string]: any;
-}
-
-function getDefaultModule() {
- return (comp: any) => comp.default
-}
-
-function errorLoading(err) {
- console.error('Dynamic page loading failed', err);
-}
-
-
-function loadRoute(cb) {
- return (module) => cb(null, module.default);
 }
 
 
@@ -128,6 +111,14 @@ const siteRoutes = [
 
 
 const history = syncHistoryWithStore(hashHistory, store);
+
+interface MyProps {
+  [propName: string]: any;
+}
+
+interface MyState {
+  [propName: string]: any;
+}
 
 export default class AppProvider extends React.Component<MyProps,  MyState>{
   render(){

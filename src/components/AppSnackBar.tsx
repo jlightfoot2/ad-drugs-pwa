@@ -26,11 +26,13 @@ export default class AppSnackBar extends React.Component<MyProps, MyState> {
     };
   }
 
+/*
   componentWillReceiveProps = (nextProps) => {
       if(nextProps.open && !this.state.open){
         this.setState({open: true})
       }
   }
+  */
 
   handleTouchTap = () => {
     this.setState({
@@ -45,10 +47,10 @@ export default class AppSnackBar extends React.Component<MyProps, MyState> {
   };
 
   render() {
-    const {message} = this.props;
+    const {message,open} = this.props;
     return (
         <Snackbar
-          open={this.state.open}
+          open={open}
           message={message}
           autoHideDuration={2000}
           onRequestClose={this.handleRequestClose}

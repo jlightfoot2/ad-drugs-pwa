@@ -45,6 +45,7 @@ interface MyProps {
   pathOnTouchTap(path:string): any;
   appConfig: any;
   leftIcon: any;
+  flashMessage: {message: string, open: boolean};
 }
 
 interface MyState {
@@ -92,7 +93,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
   }
 
   render () {
-    const {categories,pathOnTouchTap,appConfig,leftIcon} = this.props;
+    const {categories,pathOnTouchTap,appConfig,leftIcon,flashMessage} = this.props;
     return (
        
         <div>
@@ -108,7 +109,7 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
                   </div>
                 </div>
                 <UpdateDialogContainer />
-                <AppSnackBar message={'test test'} open={false} />
+                <AppSnackBar {...flashMessage} />
                 {/*
                 <Eula />
                 <SnackBarNotice flash={flash} />

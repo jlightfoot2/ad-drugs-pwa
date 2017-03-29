@@ -1,0 +1,29 @@
+{
+  "name": "Alcohol & Drugs Module",
+  "short_name": "Alcohol & Drugs",
+  "icons": [{
+    "src": "/ea6e8a7f928eddcb8be746bb37a49e22.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "/d025ee06fcf1b041f9641aa2e956e984.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "/f7074c67994bdd4750732f2d94596b2e.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "/7a576383796a193dfed56f64d8bced45.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "/7c42f8c53f484a2fca27469222d7f8ca.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FF9800",
+  "theme_color": "#3F51B5"
+}

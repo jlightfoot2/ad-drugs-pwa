@@ -2,15 +2,15 @@
   "errors": [],
   "warnings": [],
   "version": "2.3.1",
-  "hash": "48df6fea53cdddacf408",
+  "hash": "9c6af5773111ba4b9d4d",
   "publicPath": "/",
   "assetsByChunkName": {
     "main": "bundle.js"
   },
   "assets": [
     {
-      "name": "99124506fa8ee6c1028730958dc8f695.jpg",
-      "size": 6401,
+      "name": "f8b0ff44a7fd35f3a5569c0fccee2c6e.jpg",
+      "size": 8249,
       "chunks": [],
       "chunkNames": []
     },
@@ -117,14 +117,14 @@
       "chunkNames": []
     },
     {
-      "name": "07d145172a2845743ac15a9f3d7ddbaf.png",
-      "size": 61339,
+      "name": "99124506fa8ee6c1028730958dc8f695.jpg",
+      "size": 6401,
       "chunks": [],
       "chunkNames": []
     },
     {
-      "name": "f8b0ff44a7fd35f3a5569c0fccee2c6e.jpg",
-      "size": 8249,
+      "name": "07d145172a2845743ac15a9f3d7ddbaf.png",
+      "size": 61339,
       "chunks": [],
       "chunkNames": []
     },
@@ -179,6 +179,12 @@
     {
       "name": "9a534cc5448c830eb2cef2ec8fe89e25.jpg",
       "size": 6214,
+      "chunks": [],
+      "chunkNames": []
+    },
+    {
+      "name": "2a8f145b7ee8ae05a062e4dd03acb51e.css",
+      "size": 95,
       "chunks": [],
       "chunkNames": []
     },
@@ -240,7 +246,7 @@
     },
     {
       "name": "bundle.js",
-      "size": 662133,
+      "size": 662263,
       "chunks": [
         7
       ],
@@ -468,14 +474,14 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 1681458,
+      "size": 1681588,
       "names": [
         "main"
       ],
       "files": [
         "bundle.js"
       ],
-      "hash": "fcae407565e80170fef7",
+      "hash": "8643409ddd03e4bac2bb",
       "parents": [],
       "origins": [
         {
@@ -752,28 +758,10 @@
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "15:22-78"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardHeader.js",
           "module": "./~/material-ui/Card/CardHeader.js",
           "moduleName": "./~/material-ui/Card/CardHeader.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "15:22-78"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
-          "module": "./~/material-ui/Card/CardTitle.js",
-          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -788,10 +776,28 @@
           "loc": "15:22-78"
         },
         {
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "15:22-78"
+        },
+        {
           "moduleId": "./node_modules/material-ui/Card/CardMedia.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardMedia.js",
           "module": "./~/material-ui/Card/CardMedia.js",
           "moduleName": "./~/material-ui/Card/CardMedia.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "15:22-78"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
+          "module": "./~/material-ui/Card/CardTitle.js",
+          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -824,6 +830,15 @@
           "loc": "15:22-78"
         },
         {
+          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
+          "module": "./~/material-ui/Drawer/Drawer.js",
+          "moduleName": "./~/material-ui/Drawer/Drawer.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "7:22-78"
+        },
+        {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
           "module": "./~/material-ui/AppBar/AppBar.js",
@@ -842,15 +857,6 @@
           "loc": "19:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
-          "module": "./~/material-ui/Drawer/Drawer.js",
-          "moduleName": "./~/material-ui/Drawer/Drawer.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "7:22-78"
-        },
-        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -860,19 +866,19 @@
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
-          "module": "./~/material-ui/internal/EnhancedButton.js",
-          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
+          "module": "./~/material-ui/internal/Tooltip.js",
+          "moduleName": "./~/material-ui/internal/Tooltip.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
-          "module": "./~/material-ui/internal/Tooltip.js",
-          "moduleName": "./~/material-ui/internal/Tooltip.js",
+          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
+          "module": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -905,6 +911,15 @@
           "loc": "7:22-78"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
+          "loc": "15:22-78"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -918,15 +933,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/core-js/object/get-prototype-of",
-          "loc": "15:22-78"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -1022,19 +1028,19 @@
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/core-js/object/get-prototype-of",
           "loc": "15:22-78"
@@ -1387,28 +1393,10 @@
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "19:23-70"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardHeader.js",
           "module": "./~/material-ui/Card/CardHeader.js",
           "moduleName": "./~/material-ui/Card/CardHeader.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "19:23-70"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
-          "module": "./~/material-ui/Card/CardTitle.js",
-          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
@@ -1423,10 +1411,28 @@
           "loc": "19:23-70"
         },
         {
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "19:23-70"
+        },
+        {
           "moduleId": "./node_modules/material-ui/Card/CardMedia.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardMedia.js",
           "module": "./~/material-ui/Card/CardMedia.js",
           "moduleName": "./~/material-ui/Card/CardMedia.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "19:23-70"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
+          "module": "./~/material-ui/Card/CardTitle.js",
+          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
@@ -1459,6 +1465,15 @@
           "loc": "19:23-70"
         },
         {
+          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
+          "module": "./~/material-ui/Drawer/Drawer.js",
+          "moduleName": "./~/material-ui/Drawer/Drawer.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "11:23-70"
+        },
+        {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
           "module": "./~/material-ui/AppBar/AppBar.js",
@@ -1477,15 +1492,6 @@
           "loc": "23:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
-          "module": "./~/material-ui/Drawer/Drawer.js",
-          "moduleName": "./~/material-ui/Drawer/Drawer.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "11:23-70"
-        },
-        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -1495,19 +1501,19 @@
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
-          "module": "./~/material-ui/internal/EnhancedButton.js",
-          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
+          "module": "./~/material-ui/internal/Tooltip.js",
+          "moduleName": "./~/material-ui/internal/Tooltip.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
-          "module": "./~/material-ui/internal/Tooltip.js",
-          "moduleName": "./~/material-ui/internal/Tooltip.js",
+          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
+          "module": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
@@ -1540,6 +1546,15 @@
           "loc": "11:23-70"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "19:23-70"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -1565,15 +1580,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "8:23-70"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/classCallCheck",
-          "loc": "19:23-70"
         },
         {
           "moduleId": "./node_modules/material-ui/Snackbar/Snackbar.js",
@@ -1666,19 +1672,19 @@
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "19:23-70"
@@ -1856,28 +1862,10 @@
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "23:20-64"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardHeader.js",
           "module": "./~/material-ui/Card/CardHeader.js",
           "moduleName": "./~/material-ui/Card/CardHeader.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "23:20-64"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
-          "module": "./~/material-ui/Card/CardTitle.js",
-          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
@@ -1892,10 +1880,28 @@
           "loc": "23:20-64"
         },
         {
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "23:20-64"
+        },
+        {
           "moduleId": "./node_modules/material-ui/Card/CardMedia.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardMedia.js",
           "module": "./~/material-ui/Card/CardMedia.js",
           "moduleName": "./~/material-ui/Card/CardMedia.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "23:20-64"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
+          "module": "./~/material-ui/Card/CardTitle.js",
+          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
@@ -1928,6 +1934,15 @@
           "loc": "23:20-64"
         },
         {
+          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
+          "module": "./~/material-ui/Drawer/Drawer.js",
+          "moduleName": "./~/material-ui/Drawer/Drawer.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "15:20-64"
+        },
+        {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
           "module": "./~/material-ui/AppBar/AppBar.js",
@@ -1946,15 +1961,6 @@
           "loc": "27:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
-          "module": "./~/material-ui/Drawer/Drawer.js",
-          "moduleName": "./~/material-ui/Drawer/Drawer.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "15:20-64"
-        },
-        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -1964,19 +1970,19 @@
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
-          "module": "./~/material-ui/internal/EnhancedButton.js",
-          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
+          "module": "./~/material-ui/internal/Tooltip.js",
+          "moduleName": "./~/material-ui/internal/Tooltip.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
-          "module": "./~/material-ui/internal/Tooltip.js",
-          "moduleName": "./~/material-ui/internal/Tooltip.js",
+          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
+          "module": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
@@ -2009,6 +2015,15 @@
           "loc": "15:20-64"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/createClass",
+          "loc": "23:20-64"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -2034,15 +2049,6 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "12:20-64"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/createClass",
-          "loc": "23:20-64"
         },
         {
           "moduleId": "./node_modules/material-ui/Snackbar/Snackbar.js",
@@ -2135,19 +2141,19 @@
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/createClass",
           "loc": "23:20-64"
@@ -2353,28 +2359,10 @@
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/extends",
-          "loc": "7:16-56"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardHeader.js",
           "module": "./~/material-ui/Card/CardHeader.js",
           "moduleName": "./~/material-ui/Card/CardHeader.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/extends",
-          "loc": "7:16-56"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
-          "module": "./~/material-ui/Card/CardTitle.js",
-          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2389,10 +2377,28 @@
           "loc": "7:16-56"
         },
         {
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/extends",
+          "loc": "7:16-56"
+        },
+        {
           "moduleId": "./node_modules/material-ui/Card/CardMedia.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardMedia.js",
           "module": "./~/material-ui/Card/CardMedia.js",
           "moduleName": "./~/material-ui/Card/CardMedia.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/extends",
+          "loc": "7:16-56"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
+          "module": "./~/material-ui/Card/CardTitle.js",
+          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2416,6 +2422,15 @@
           "loc": "7:16-56"
         },
         {
+          "moduleId": "./node_modules/material-ui/Divider/Divider.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Divider/Divider.js",
+          "module": "./~/material-ui/Divider/Divider.js",
+          "moduleName": "./~/material-ui/Divider/Divider.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/extends",
+          "loc": "7:16-56"
+        },
+        {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
           "module": "./~/material-ui/AppBar/AppBar.js",
@@ -2434,15 +2449,6 @@
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/Divider/Divider.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Divider/Divider.js",
-          "module": "./~/material-ui/Divider/Divider.js",
-          "moduleName": "./~/material-ui/Divider/Divider.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/extends",
-          "loc": "7:16-56"
-        },
-        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -2452,19 +2458,19 @@
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
-          "module": "./~/material-ui/internal/EnhancedButton.js",
-          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
+          "module": "./~/material-ui/internal/Tooltip.js",
+          "moduleName": "./~/material-ui/internal/Tooltip.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
-          "module": "./~/material-ui/internal/Tooltip.js",
-          "moduleName": "./~/material-ui/internal/Tooltip.js",
+          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
+          "module": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2488,19 +2494,19 @@
           "loc": "11:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/List/List.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
-          "module": "./~/material-ui/List/List.js",
-          "moduleName": "./~/material-ui/List/List.js",
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "moduleId": "./node_modules/material-ui/List/List.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
+          "module": "./~/material-ui/List/List.js",
+          "moduleName": "./~/material-ui/List/List.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2551,19 +2557,19 @@
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "7:16-56"
@@ -2741,28 +2747,10 @@
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "31:17-58"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardHeader.js",
           "module": "./~/material-ui/Card/CardHeader.js",
           "moduleName": "./~/material-ui/Card/CardHeader.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "31:17-58"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
-          "module": "./~/material-ui/Card/CardTitle.js",
-          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -2777,10 +2765,28 @@
           "loc": "31:17-58"
         },
         {
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "31:17-58"
+        },
+        {
           "moduleId": "./node_modules/material-ui/Card/CardMedia.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardMedia.js",
           "module": "./~/material-ui/Card/CardMedia.js",
           "moduleName": "./~/material-ui/Card/CardMedia.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "31:17-58"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
+          "module": "./~/material-ui/Card/CardTitle.js",
+          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -2813,6 +2819,15 @@
           "loc": "31:17-58"
         },
         {
+          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
+          "module": "./~/material-ui/Drawer/Drawer.js",
+          "moduleName": "./~/material-ui/Drawer/Drawer.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "23:17-58"
+        },
+        {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
           "module": "./~/material-ui/AppBar/AppBar.js",
@@ -2831,15 +2846,6 @@
           "loc": "35:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
-          "module": "./~/material-ui/Drawer/Drawer.js",
-          "moduleName": "./~/material-ui/Drawer/Drawer.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "23:17-58"
-        },
-        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -2849,19 +2855,19 @@
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
-          "module": "./~/material-ui/internal/EnhancedButton.js",
-          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
+          "module": "./~/material-ui/internal/Tooltip.js",
+          "moduleName": "./~/material-ui/internal/Tooltip.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
-          "module": "./~/material-ui/internal/Tooltip.js",
-          "moduleName": "./~/material-ui/internal/Tooltip.js",
+          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
+          "module": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -2894,6 +2900,15 @@
           "loc": "23:17-58"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "31:17-58"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -2907,15 +2922,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/inherits",
-          "loc": "31:17-58"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -3011,19 +3017,19 @@
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "31:17-58"
@@ -3192,28 +3198,10 @@
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/objectWithoutProperties",
-          "loc": "11:32-88"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardHeader.js",
           "module": "./~/material-ui/Card/CardHeader.js",
           "moduleName": "./~/material-ui/Card/CardHeader.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/objectWithoutProperties",
-          "loc": "11:32-88"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
-          "module": "./~/material-ui/Card/CardTitle.js",
-          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3228,10 +3216,28 @@
           "loc": "11:32-88"
         },
         {
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/objectWithoutProperties",
+          "loc": "11:32-88"
+        },
+        {
           "moduleId": "./node_modules/material-ui/Card/CardMedia.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardMedia.js",
           "module": "./~/material-ui/Card/CardMedia.js",
           "moduleName": "./~/material-ui/Card/CardMedia.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/objectWithoutProperties",
+          "loc": "11:32-88"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
+          "module": "./~/material-ui/Card/CardTitle.js",
+          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3255,6 +3261,15 @@
           "loc": "11:32-88"
         },
         {
+          "moduleId": "./node_modules/material-ui/Divider/Divider.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Divider/Divider.js",
+          "module": "./~/material-ui/Divider/Divider.js",
+          "moduleName": "./~/material-ui/Divider/Divider.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/objectWithoutProperties",
+          "loc": "11:32-88"
+        },
+        {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
           "module": "./~/material-ui/AppBar/AppBar.js",
@@ -3273,15 +3288,6 @@
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/Divider/Divider.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Divider/Divider.js",
-          "module": "./~/material-ui/Divider/Divider.js",
-          "moduleName": "./~/material-ui/Divider/Divider.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/objectWithoutProperties",
-          "loc": "11:32-88"
-        },
-        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -3291,19 +3297,19 @@
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
-          "module": "./~/material-ui/internal/EnhancedButton.js",
-          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
+          "module": "./~/material-ui/internal/Tooltip.js",
+          "moduleName": "./~/material-ui/internal/Tooltip.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
-          "module": "./~/material-ui/internal/Tooltip.js",
-          "moduleName": "./~/material-ui/internal/Tooltip.js",
+          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
+          "module": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3327,19 +3333,19 @@
           "loc": "7:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/List/List.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
-          "module": "./~/material-ui/List/List.js",
-          "moduleName": "./~/material-ui/List/List.js",
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "moduleId": "./node_modules/material-ui/List/List.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
+          "module": "./~/material-ui/List/List.js",
+          "moduleName": "./~/material-ui/List/List.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3399,19 +3405,19 @@
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/objectWithoutProperties",
           "loc": "11:32-88"
@@ -3589,28 +3595,10 @@
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "27:34-92"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardHeader.js",
           "module": "./~/material-ui/Card/CardHeader.js",
           "moduleName": "./~/material-ui/Card/CardHeader.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "27:34-92"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
-          "module": "./~/material-ui/Card/CardTitle.js",
-          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -3625,10 +3613,28 @@
           "loc": "27:34-92"
         },
         {
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "27:34-92"
+        },
+        {
           "moduleId": "./node_modules/material-ui/Card/CardMedia.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardMedia.js",
           "module": "./~/material-ui/Card/CardMedia.js",
           "moduleName": "./~/material-ui/Card/CardMedia.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "27:34-92"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
+          "module": "./~/material-ui/Card/CardTitle.js",
+          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -3661,6 +3667,15 @@
           "loc": "27:34-92"
         },
         {
+          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
+          "module": "./~/material-ui/Drawer/Drawer.js",
+          "moduleName": "./~/material-ui/Drawer/Drawer.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "19:34-92"
+        },
+        {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
           "module": "./~/material-ui/AppBar/AppBar.js",
@@ -3679,15 +3694,6 @@
           "loc": "31:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
-          "module": "./~/material-ui/Drawer/Drawer.js",
-          "moduleName": "./~/material-ui/Drawer/Drawer.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "19:34-92"
-        },
-        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -3697,19 +3703,19 @@
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
-          "module": "./~/material-ui/internal/EnhancedButton.js",
-          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
+          "module": "./~/material-ui/internal/Tooltip.js",
+          "moduleName": "./~/material-ui/internal/Tooltip.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
-          "module": "./~/material-ui/internal/Tooltip.js",
-          "moduleName": "./~/material-ui/internal/Tooltip.js",
+          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
+          "module": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -3742,6 +3748,15 @@
           "loc": "19:34-92"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "27:34-92"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -3755,15 +3770,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
-          "loc": "27:34-92"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -3859,19 +3865,19 @@
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "27:34-92"
@@ -4604,15 +4610,6 @@
           "loc": "19:21-44"
         },
         {
-          "moduleId": "./node_modules/core-js/library/modules/_set-proto.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/core-js/library/modules/_set-proto.js",
-          "module": "./~/core-js/library/modules/_set-proto.js",
-          "moduleName": "./~/core-js/library/modules/_set-proto.js",
-          "type": "cjs require",
-          "userRequest": "./_an-object",
-          "loc": "4:15-38"
-        },
-        {
           "moduleId": "./node_modules/core-js/library/modules/_object-dp.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/core-js/library/modules/_object-dp.js",
           "module": "./~/core-js/library/modules/_object-dp.js",
@@ -4620,6 +4617,15 @@
           "type": "cjs require",
           "userRequest": "./_an-object",
           "loc": "1:21-44"
+        },
+        {
+          "moduleId": "./node_modules/core-js/library/modules/_set-proto.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/core-js/library/modules/_set-proto.js",
+          "module": "./~/core-js/library/modules/_set-proto.js",
+          "moduleName": "./~/core-js/library/modules/_set-proto.js",
+          "type": "cjs require",
+          "userRequest": "./_an-object",
+          "loc": "4:15-38"
         },
         {
           "moduleId": "./node_modules/core-js/library/modules/_object-create.js",
@@ -5310,22 +5316,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
-      "issuerId": "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
-      "issuerName": "./~/core-js/library/modules/es6.object.set-prototype-of.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/core-js/library/modules/es6.object.define-property.js",
+      "issuerId": "./node_modules/core-js/library/modules/es6.object.define-property.js",
+      "issuerName": "./~/core-js/library/modules/es6.object.define-property.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
-          "module": "./~/core-js/library/modules/es6.object.set-prototype-of.js",
-          "moduleName": "./~/core-js/library/modules/es6.object.set-prototype-of.js",
-          "type": "cjs require",
-          "userRequest": "./_export",
-          "loc": "2:14-34"
-        },
         {
           "moduleId": "./node_modules/core-js/library/modules/es6.object.define-property.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/core-js/library/modules/es6.object.define-property.js",
@@ -5334,6 +5331,15 @@
           "type": "cjs require",
           "userRequest": "./_export",
           "loc": "1:14-34"
+        },
+        {
+          "moduleId": "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+          "module": "./~/core-js/library/modules/es6.object.set-prototype-of.js",
+          "moduleName": "./~/core-js/library/modules/es6.object.set-prototype-of.js",
+          "type": "cjs require",
+          "userRequest": "./_export",
+          "loc": "2:14-34"
         },
         {
           "moduleId": "./node_modules/core-js/library/modules/es6.object.create.js",
@@ -9162,6 +9168,15 @@
           "loc": "13:20-46"
         },
         {
+          "moduleId": "./node_modules/react-dom/lib/SyntheticEvent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/SyntheticEvent.js",
+          "module": "./~/react-dom/lib/SyntheticEvent.js",
+          "moduleName": "./~/react-dom/lib/SyntheticEvent.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyFunction",
+          "loc": "17:20-53"
+        },
+        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactDOMComponent.js",
           "module": "./~/react-dom/lib/ReactDOMComponent.js",
@@ -9187,15 +9202,6 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyFunction",
           "loc": "31:20-53"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/SyntheticEvent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/SyntheticEvent.js",
-          "module": "./~/react-dom/lib/SyntheticEvent.js",
-          "moduleName": "./~/react-dom/lib/SyntheticEvent.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/emptyFunction",
-          "loc": "17:20-53"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactMultiChild.js",
@@ -9638,6 +9644,15 @@
           "loc": "16:16-45"
         },
         {
+          "moduleId": "./node_modules/react-dom/lib/EventPluginUtils.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/EventPluginUtils.js",
+          "module": "./~/react-dom/lib/EventPluginUtils.js",
+          "moduleName": "./~/react-dom/lib/EventPluginUtils.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "17:16-45"
+        },
+        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponentTree.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactDOMComponentTree.js",
           "module": "./~/react-dom/lib/ReactDOMComponentTree.js",
@@ -9672,15 +9687,6 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/invariant",
           "loc": "20:16-45"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/EventPluginUtils.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/EventPluginUtils.js",
-          "module": "./~/react-dom/lib/EventPluginUtils.js",
-          "moduleName": "./~/react-dom/lib/EventPluginUtils.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "17:16-45"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/EventPluginRegistry.js",
@@ -9719,15 +9725,6 @@
           "loc": "19:16-45"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/DOMProperty.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/DOMProperty.js",
-          "module": "./~/react-dom/lib/DOMProperty.js",
-          "moduleName": "./~/react-dom/lib/DOMProperty.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "15:16-45"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactDOMComponent.js",
           "module": "./~/react-dom/lib/ReactDOMComponent.js",
@@ -9762,6 +9759,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/invariant",
           "loc": "33:16-45"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/DOMProperty.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/DOMProperty.js",
+          "module": "./~/react-dom/lib/DOMProperty.js",
+          "moduleName": "./~/react-dom/lib/DOMProperty.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "15:16-45"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactUpdateQueue.js",
@@ -9863,15 +9869,6 @@
           "loc": "15:16-45"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactOwner.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactOwner.js",
-          "module": "./~/react-dom/lib/ReactOwner.js",
-          "moduleName": "./~/react-dom/lib/ReactOwner.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "16:16-45"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactCompositeComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactCompositeComponent.js",
           "module": "./~/react-dom/lib/ReactCompositeComponent.js",
@@ -9879,6 +9876,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/invariant",
           "loc": "30:16-45"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactOwner.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactOwner.js",
+          "module": "./~/react-dom/lib/ReactOwner.js",
+          "moduleName": "./~/react-dom/lib/ReactOwner.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "16:16-45"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/Danger.js",
@@ -9935,15 +9941,6 @@
           "loc": "19:16-45"
         },
         {
-          "moduleId": "./node_modules/fbjs/lib/getMarkupWrap.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/fbjs/lib/getMarkupWrap.js",
-          "module": "./~/fbjs/lib/getMarkupWrap.js",
-          "moduleName": "./~/fbjs/lib/getMarkupWrap.js",
-          "type": "cjs require",
-          "userRequest": "./invariant",
-          "loc": "17:16-38"
-        },
-        {
           "moduleId": "./node_modules/fbjs/lib/createArrayFromMixed.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/fbjs/lib/createArrayFromMixed.js",
           "module": "./~/fbjs/lib/createArrayFromMixed.js",
@@ -9951,6 +9948,15 @@
           "type": "cjs require",
           "userRequest": "./invariant",
           "loc": "14:16-38"
+        },
+        {
+          "moduleId": "./node_modules/fbjs/lib/getMarkupWrap.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/fbjs/lib/getMarkupWrap.js",
+          "module": "./~/fbjs/lib/getMarkupWrap.js",
+          "moduleName": "./~/fbjs/lib/getMarkupWrap.js",
+          "type": "cjs require",
+          "userRequest": "./invariant",
+          "loc": "17:16-38"
         }
       ],
       "usedExports": true,
@@ -10256,33 +10262,6 @@
           "loc": "19:14-41"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactReconciler.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactReconciler.js",
-          "module": "./~/react-dom/lib/ReactReconciler.js",
-          "moduleName": "./~/react-dom/lib/ReactReconciler.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "16:14-41"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactMount.js",
-          "module": "./~/react-dom/lib/ReactMount.js",
-          "moduleName": "./~/react-dom/lib/ReactMount.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "36:14-41"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/findDOMNode.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/findDOMNode.js",
-          "module": "./~/react-dom/lib/findDOMNode.js",
-          "moduleName": "./~/react-dom/lib/findDOMNode.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "21:14-41"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/EventPluginUtils.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/EventPluginUtils.js",
           "module": "./~/react-dom/lib/EventPluginUtils.js",
@@ -10301,6 +10280,33 @@
           "loc": "18:14-41"
         },
         {
+          "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactMount.js",
+          "module": "./~/react-dom/lib/ReactMount.js",
+          "moduleName": "./~/react-dom/lib/ReactMount.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "36:14-41"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactReconciler.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactReconciler.js",
+          "module": "./~/react-dom/lib/ReactReconciler.js",
+          "moduleName": "./~/react-dom/lib/ReactReconciler.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "16:14-41"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/findDOMNode.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/findDOMNode.js",
+          "module": "./~/react-dom/lib/findDOMNode.js",
+          "moduleName": "./~/react-dom/lib/findDOMNode.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "21:14-41"
+        },
+        {
           "moduleId": "./node_modules/react/lib/traverseAllChildren.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react/lib/traverseAllChildren.js",
           "module": "./~/react/lib/traverseAllChildren.js",
@@ -10317,6 +10323,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/warning",
           "loc": "13:14-41"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/SyntheticEvent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/SyntheticEvent.js",
+          "module": "./~/react-dom/lib/SyntheticEvent.js",
+          "moduleName": "./~/react-dom/lib/SyntheticEvent.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/warning",
+          "loc": "18:14-41"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
@@ -10344,15 +10359,6 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/warning",
           "loc": "22:14-41"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/SyntheticEvent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/SyntheticEvent.js",
-          "module": "./~/react-dom/lib/SyntheticEvent.js",
-          "moduleName": "./~/react-dom/lib/SyntheticEvent.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/warning",
-          "loc": "18:14-41"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/CSSPropertyOperations.js",
@@ -10517,8 +10523,8 @@
       "id": "./node_modules/file-loader/index.js?name=[name].[ext]!./src/favicon.ico",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/file-loader/index.js?name=[name].[ext]!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/favicon.ico",
       "name": "./~/file-loader?name=[name].[ext]!./src/favicon.ico",
-      "index": 645,
-      "index2": 643,
+      "index": 646,
+      "index2": 644,
       "size": 57,
       "cacheable": true,
       "built": true,
@@ -10544,7 +10550,7 @@
           "moduleName": "./src/index.tsx",
           "type": "cjs require",
           "userRequest": "file-loader?name=[name].[ext]!./favicon.ico",
-          "loc": "15:0-54"
+          "loc": "16:0-54"
         }
       ],
       "usedExports": true,
@@ -12576,19 +12582,19 @@
           "loc": "8:24-60"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/zoomCursor.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/plugins/zoomCursor.js",
-          "module": "./~/inline-style-prefixer/lib/plugins/zoomCursor.js",
-          "moduleName": "./~/inline-style-prefixer/lib/plugins/zoomCursor.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/grabCursor.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/plugins/grabCursor.js",
+          "module": "./~/inline-style-prefixer/lib/plugins/grabCursor.js",
+          "moduleName": "./~/inline-style-prefixer/lib/plugins/grabCursor.js",
           "type": "cjs require",
           "userRequest": "../utils/getPrefixedValue",
           "loc": "8:24-60"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/grabCursor.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/plugins/grabCursor.js",
-          "module": "./~/inline-style-prefixer/lib/plugins/grabCursor.js",
-          "moduleName": "./~/inline-style-prefixer/lib/plugins/grabCursor.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/zoomCursor.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/plugins/zoomCursor.js",
+          "module": "./~/inline-style-prefixer/lib/plugins/zoomCursor.js",
+          "moduleName": "./~/inline-style-prefixer/lib/plugins/zoomCursor.js",
           "type": "cjs require",
           "userRequest": "../utils/getPrefixedValue",
           "loc": "8:24-60"
@@ -12621,19 +12627,19 @@
           "loc": "8:24-60"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/flexboxOld.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/plugins/flexboxOld.js",
-          "module": "./~/inline-style-prefixer/lib/plugins/flexboxOld.js",
-          "moduleName": "./~/inline-style-prefixer/lib/plugins/flexboxOld.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/flexboxIE.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/plugins/flexboxIE.js",
+          "module": "./~/inline-style-prefixer/lib/plugins/flexboxIE.js",
+          "moduleName": "./~/inline-style-prefixer/lib/plugins/flexboxIE.js",
           "type": "cjs require",
           "userRequest": "../utils/getPrefixedValue",
           "loc": "8:24-60"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/flexboxIE.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/plugins/flexboxIE.js",
-          "module": "./~/inline-style-prefixer/lib/plugins/flexboxIE.js",
-          "moduleName": "./~/inline-style-prefixer/lib/plugins/flexboxIE.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/plugins/flexboxOld.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/plugins/flexboxOld.js",
+          "module": "./~/inline-style-prefixer/lib/plugins/flexboxOld.js",
+          "moduleName": "./~/inline-style-prefixer/lib/plugins/flexboxOld.js",
           "type": "cjs require",
           "userRequest": "../utils/getPrefixedValue",
           "loc": "8:24-60"
@@ -12768,10 +12774,10 @@
           "loc": "8:25-65"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/static/plugins/gradient.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/static/plugins/gradient.js",
-          "module": "./~/inline-style-prefixer/lib/static/plugins/gradient.js",
-          "moduleName": "./~/inline-style-prefixer/lib/static/plugins/gradient.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "module": "./~/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "moduleName": "./~/inline-style-prefixer/lib/static/plugins/cursor.js",
           "type": "cjs require",
           "userRequest": "../../utils/joinPrefixedValue",
           "loc": "8:25-65"
@@ -12786,10 +12792,10 @@
           "loc": "8:25-65"
         },
         {
-          "moduleId": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
-          "module": "./~/inline-style-prefixer/lib/static/plugins/cursor.js",
-          "moduleName": "./~/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "moduleId": "./node_modules/inline-style-prefixer/lib/static/plugins/gradient.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/inline-style-prefixer/lib/static/plugins/gradient.js",
+          "module": "./~/inline-style-prefixer/lib/static/plugins/gradient.js",
+          "moduleName": "./~/inline-style-prefixer/lib/static/plugins/gradient.js",
           "type": "cjs require",
           "userRequest": "../../utils/joinPrefixedValue",
           "loc": "8:25-65"
@@ -12898,22 +12904,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/Link.js",
-      "issuerId": "./node_modules/react-router/es/Link.js",
-      "issuerName": "./~/react-router/es/Link.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/Router.js",
+      "issuerId": "./node_modules/react-router/es/Router.js",
+      "issuerName": "./~/react-router/es/Router.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/react-router/es/Link.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/Link.js",
-          "module": "./~/react-router/es/Link.js",
-          "moduleName": "./~/react-router/es/Link.js",
-          "type": "harmony import",
-          "userRequest": "invariant",
-          "loc": "6:0-34"
-        },
         {
           "moduleId": "./node_modules/react-router/es/Router.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/Router.js",
@@ -12922,6 +12919,15 @@
           "type": "harmony import",
           "userRequest": "invariant",
           "loc": "5:0-34"
+        },
+        {
+          "moduleId": "./node_modules/react-router/es/Link.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/Link.js",
+          "module": "./~/react-router/es/Link.js",
+          "moduleName": "./~/react-router/es/Link.js",
+          "type": "harmony import",
+          "userRequest": "invariant",
+          "loc": "6:0-34"
         },
         {
           "moduleId": "./node_modules/react-router/es/withRouter.js",
@@ -13061,22 +13067,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Menu/Menu.js",
-      "issuerId": "./node_modules/material-ui/Menu/Menu.js",
-      "issuerName": "./~/material-ui/Menu/Menu.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
+      "issuerId": "./node_modules/material-ui/Drawer/Drawer.js",
+      "issuerName": "./~/material-ui/Drawer/Drawer.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "keycode",
-          "loc": "59:15-33"
-        },
         {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
@@ -13085,6 +13082,15 @@
           "type": "cjs require",
           "userRequest": "keycode",
           "loc": "43:15-33"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "keycode",
+          "loc": "59:15-33"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
@@ -15377,15 +15383,6 @@
           "loc": "43:13-32"
         },
         {
-          "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
-          "module": "./~/material-ui/AppBar/AppBar.js",
-          "moduleName": "./~/material-ui/AppBar/AppBar.js",
-          "type": "cjs require",
-          "userRequest": "../Paper",
-          "loc": "57:13-32"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -15393,6 +15390,15 @@
           "type": "cjs require",
           "userRequest": "../Paper",
           "loc": "59:13-32"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
+          "module": "./~/material-ui/AppBar/AppBar.js",
+          "moduleName": "./~/material-ui/AppBar/AppBar.js",
+          "type": "cjs require",
+          "userRequest": "../Paper",
+          "loc": "57:13-32"
         },
         {
           "moduleId": "./node_modules/material-ui/Popover/Popover.js",
@@ -17234,15 +17240,6 @@
           "loc": "47:19-51"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
-          "module": "./~/material-ui/TextField/TextFieldHint.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
-          "type": "cjs require",
-          "userRequest": "../styles/transitions",
-          "loc": "15:19-51"
-        },
-        {
           "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
           "module": "./~/material-ui/TextField/TextFieldLabel.js",
@@ -17252,10 +17249,10 @@
           "loc": "15:19-51"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
+          "module": "./~/material-ui/TextField/TextFieldHint.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
           "type": "cjs require",
           "userRequest": "../styles/transitions",
           "loc": "15:19-51"
@@ -17268,6 +17265,15 @@
           "type": "cjs require",
           "userRequest": "../styles/transitions",
           "loc": "39:19-51"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "type": "cjs require",
+          "userRequest": "../styles/transitions",
+          "loc": "15:19-51"
         }
       ],
       "usedExports": true,
@@ -18172,6 +18178,15 @@
           "loc": "67:17-46"
         },
         {
+          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
+          "module": "./~/material-ui/Drawer/Drawer.js",
+          "moduleName": "./~/material-ui/Drawer/Drawer.js",
+          "type": "cjs require",
+          "userRequest": "../utils/propTypes",
+          "loc": "63:17-46"
+        },
+        {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
           "module": "./~/material-ui/AppBar/AppBar.js",
@@ -18185,15 +18200,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Menu/Menu.js",
           "module": "./~/material-ui/Menu/Menu.js",
           "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "../utils/propTypes",
-          "loc": "63:17-46"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
-          "module": "./~/material-ui/Drawer/Drawer.js",
-          "moduleName": "./~/material-ui/Drawer/Drawer.js",
           "type": "cjs require",
           "userRequest": "../utils/propTypes",
           "loc": "63:17-46"
@@ -18778,6 +18784,15 @@
           "loc": "14:14-38"
         },
         {
+          "moduleId": "./node_modules/react-dom/lib/SyntheticEvent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/SyntheticEvent.js",
+          "module": "./~/react-dom/lib/SyntheticEvent.js",
+          "moduleName": "./~/react-dom/lib/SyntheticEvent.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "13:14-38"
+        },
+        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactDOMComponent.js",
           "module": "./~/react-dom/lib/ReactDOMComponent.js",
@@ -18848,15 +18863,6 @@
           "type": "cjs require",
           "userRequest": "object-assign",
           "loc": "14:14-38"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/SyntheticEvent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/SyntheticEvent.js",
-          "module": "./~/react-dom/lib/SyntheticEvent.js",
-          "moduleName": "./~/react-dom/lib/SyntheticEvent.js",
-          "type": "cjs require",
-          "userRequest": "object-assign",
-          "loc": "13:14-38"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/FallbackCompositionState.js",
@@ -19161,15 +19167,6 @@
           "loc": "43:16-36"
         },
         {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "react-dom",
-          "loc": "47:16-36"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
           "module": "./~/material-ui/Drawer/Drawer.js",
@@ -19177,6 +19174,15 @@
           "type": "cjs require",
           "userRequest": "react-dom",
           "loc": "35:16-36"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "react-dom",
+          "loc": "47:16-36"
         },
         {
           "moduleId": "./node_modules/material-ui/Popover/Popover.js",
@@ -20527,6 +20533,15 @@
           "loc": "17:18-42"
         },
         {
+          "moduleId": "./node_modules/react-dom/lib/SyntheticEvent.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/SyntheticEvent.js",
+          "module": "./~/react-dom/lib/SyntheticEvent.js",
+          "moduleName": "./~/react-dom/lib/SyntheticEvent.js",
+          "type": "cjs require",
+          "userRequest": "./PooledClass",
+          "loc": "15:18-42"
+        },
+        {
           "moduleId": "./node_modules/react-dom/lib/ReactEventListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactEventListener.js",
           "module": "./~/react-dom/lib/ReactEventListener.js",
@@ -20552,15 +20567,6 @@
           "type": "cjs require",
           "userRequest": "./PooledClass",
           "loc": "18:18-42"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/SyntheticEvent.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/SyntheticEvent.js",
-          "module": "./~/react-dom/lib/SyntheticEvent.js",
-          "moduleName": "./~/react-dom/lib/SyntheticEvent.js",
-          "type": "cjs require",
-          "userRequest": "./PooledClass",
-          "loc": "15:18-42"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/FallbackCompositionState.js",
@@ -22109,22 +22115,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactReconciler.js",
-      "issuerId": "./node_modules/react-dom/lib/ReactReconciler.js",
-      "issuerName": "./~/react-dom/lib/ReactReconciler.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactMount.js",
+      "issuerId": "./node_modules/react-dom/lib/ReactMount.js",
+      "issuerName": "./~/react-dom/lib/ReactMount.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/react-dom/lib/ReactReconciler.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactReconciler.js",
-          "module": "./~/react-dom/lib/ReactReconciler.js",
-          "moduleName": "./~/react-dom/lib/ReactReconciler.js",
-          "type": "cjs require",
-          "userRequest": "./ReactInstrumentation",
-          "loc": "14:27-60"
-        },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactMount.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactMount.js",
@@ -22133,6 +22130,15 @@
           "type": "cjs require",
           "userRequest": "./ReactInstrumentation",
           "loc": "25:27-60"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactReconciler.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactReconciler.js",
+          "module": "./~/react-dom/lib/ReactReconciler.js",
+          "moduleName": "./~/react-dom/lib/ReactReconciler.js",
+          "type": "cjs require",
+          "userRequest": "./ReactInstrumentation",
+          "loc": "14:27-60"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
@@ -24558,69 +24564,6 @@
       "source": "/**\n * Copyright 2013-present, Facebook, Inc.\n * All rights reserved.\n *\n * This source code is licensed under the BSD-style license found in the\n * LICENSE file in the root directory of this source tree. An additional grant\n * of patent rights can be found in the PATENTS file in the same directory.\n *\n */\n\n'use strict';\n\nvar ExecutionEnvironment = require('fbjs/lib/ExecutionEnvironment');\n\n/**\n * Generate a mapping of standard vendor prefixes using the defined style property and event name.\n *\n * @param {string} styleProp\n * @param {string} eventName\n * @returns {object}\n */\nfunction makePrefixMap(styleProp, eventName) {\n  var prefixes = {};\n\n  prefixes[styleProp.toLowerCase()] = eventName.toLowerCase();\n  prefixes['Webkit' + styleProp] = 'webkit' + eventName;\n  prefixes['Moz' + styleProp] = 'moz' + eventName;\n  prefixes['ms' + styleProp] = 'MS' + eventName;\n  prefixes['O' + styleProp] = 'o' + eventName.toLowerCase();\n\n  return prefixes;\n}\n\n/**\n * A list of event names to a configurable list of vendor prefixes.\n */\nvar vendorPrefixes = {\n  animationend: makePrefixMap('Animation', 'AnimationEnd'),\n  animationiteration: makePrefixMap('Animation', 'AnimationIteration'),\n  animationstart: makePrefixMap('Animation', 'AnimationStart'),\n  transitionend: makePrefixMap('Transition', 'TransitionEnd')\n};\n\n/**\n * Event names that have already been detected and prefixed (if applicable).\n */\nvar prefixedEventNames = {};\n\n/**\n * Element to check for prefixes on.\n */\nvar style = {};\n\n/**\n * Bootstrap if a DOM exists.\n */\nif (ExecutionEnvironment.canUseDOM) {\n  style = document.createElement('div').style;\n\n  // On some platforms, in particular some releases of Android 4.x,\n  // the un-prefixed \"animation\" and \"transition\" properties are defined on the\n  // style object but the events that fire will still be prefixed, so we need\n  // to check if the un-prefixed events are usable, and if not remove them from the map.\n  if (!('AnimationEvent' in window)) {\n    delete vendorPrefixes.animationend.animation;\n    delete vendorPrefixes.animationiteration.animation;\n    delete vendorPrefixes.animationstart.animation;\n  }\n\n  // Same as above\n  if (!('TransitionEvent' in window)) {\n    delete vendorPrefixes.transitionend.transition;\n  }\n}\n\n/**\n * Attempts to determine the correct vendor prefixed event name.\n *\n * @param {string} eventName\n * @returns {string}\n */\nfunction getVendorPrefixedEventName(eventName) {\n  if (prefixedEventNames[eventName]) {\n    return prefixedEventNames[eventName];\n  } else if (!vendorPrefixes[eventName]) {\n    return eventName;\n  }\n\n  var prefixMap = vendorPrefixes[eventName];\n\n  for (var styleProp in prefixMap) {\n    if (prefixMap.hasOwnProperty(styleProp) && styleProp in style) {\n      return prefixedEventNames[eventName] = prefixMap[styleProp];\n    }\n  }\n\n  return '';\n}\n\nmodule.exports = getVendorPrefixedEventName;"
     },
     {
-      "id": "./node_modules/react-tap-event-plugin/src/TouchEventUtils.js",
-      "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-tap-event-plugin/src/TouchEventUtils.js",
-      "name": "./~/react-tap-event-plugin/src/TouchEventUtils.js",
-      "index": 636,
-      "index2": 632,
-      "size": 1552,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        7
-      ],
-      "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-tap-event-plugin/src/TapEventPlugin.js",
-      "issuerId": "./node_modules/react-tap-event-plugin/src/TapEventPlugin.js",
-      "issuerName": "./~/react-tap-event-plugin/src/TapEventPlugin.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": "./node_modules/react-tap-event-plugin/src/TapEventPlugin.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-tap-event-plugin/src/TapEventPlugin.js",
-          "module": "./~/react-tap-event-plugin/src/TapEventPlugin.js",
-          "moduleName": "./~/react-tap-event-plugin/src/TapEventPlugin.js",
-          "type": "cjs require",
-          "userRequest": "./TouchEventUtils",
-          "loc": "26:22-50"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "depth": 4,
-      "source": "/**\n * Copyright 2013-2014 Facebook, Inc.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n *\n * @providesModule TouchEventUtils\n */\n\nvar TouchEventUtils = {\n  /**\n   * Utility function for common case of extracting out the primary touch from a\n   * touch event.\n   * - `touchEnd` events usually do not have the `touches` property.\n   *   http://stackoverflow.com/questions/3666929/\n   *   mobile-sarai-touchend-event-not-firing-when-last-touch-is-removed\n   *\n   * @param {Event} nativeEvent Native event that may or may not be a touch.\n   * @return {TouchesObject?} an object with pageX and pageY or null.\n   */\n  extractSingleTouch: function(nativeEvent) {\n    var touches = nativeEvent.touches;\n    var changedTouches = nativeEvent.changedTouches;\n    var hasTouches = touches && touches.length > 0;\n    var hasChangedTouches = changedTouches && changedTouches.length > 0;\n\n    return !hasTouches && hasChangedTouches ? changedTouches[0] :\n           hasTouches ? touches[0] :\n           nativeEvent;\n  }\n};\n\nmodule.exports = TouchEventUtils;\n"
-    },
-    {
-      "id": 0,
-      "identifier": "multi ./src/index.tsx",
-      "name": "multi ./src/index.tsx",
-      "index": 0,
-      "index2": 645,
-      "size": 28,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        7
-      ],
-      "assets": [],
-      "issuer": null,
-      "issuerId": null,
-      "issuerName": null,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [],
-      "usedExports": true,
-      "providedExports": null,
-      "depth": 0
-    },
-    {
       "id": "./node_modules/react-dom/lib/instantiateReactComponent.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/instantiateReactComponent.js",
       "name": "./~/react-dom/lib/instantiateReactComponent.js",
@@ -24836,6 +24779,15 @@
           "loc": "13:21-52"
         },
         {
+          "moduleId": "./node_modules/react-dom/lib/EventPluginUtils.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/EventPluginUtils.js",
+          "module": "./~/react-dom/lib/EventPluginUtils.js",
+          "moduleName": "./~/react-dom/lib/EventPluginUtils.js",
+          "type": "cjs require",
+          "userRequest": "./reactProdInvariant",
+          "loc": "13:21-52"
+        },
+        {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponentTree.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactDOMComponentTree.js",
           "module": "./~/react-dom/lib/ReactDOMComponentTree.js",
@@ -24872,15 +24824,6 @@
           "loc": "13:21-52"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/EventPluginUtils.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/EventPluginUtils.js",
-          "module": "./~/react-dom/lib/EventPluginUtils.js",
-          "moduleName": "./~/react-dom/lib/EventPluginUtils.js",
-          "type": "cjs require",
-          "userRequest": "./reactProdInvariant",
-          "loc": "13:21-52"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/EventPluginRegistry.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/EventPluginRegistry.js",
           "module": "./~/react-dom/lib/EventPluginRegistry.js",
@@ -24897,15 +24840,6 @@
           "type": "cjs require",
           "userRequest": "./reactProdInvariant",
           "loc": "14:21-52"
-        },
-        {
-          "moduleId": "./node_modules/react-dom/lib/DOMProperty.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/DOMProperty.js",
-          "module": "./~/react-dom/lib/DOMProperty.js",
-          "moduleName": "./~/react-dom/lib/DOMProperty.js",
-          "type": "cjs require",
-          "userRequest": "./reactProdInvariant",
-          "loc": "13:21-52"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactDOMComponent.js",
@@ -24942,6 +24876,15 @@
           "type": "cjs require",
           "userRequest": "./reactProdInvariant",
           "loc": "14:21-52"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/DOMProperty.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/DOMProperty.js",
+          "module": "./~/react-dom/lib/DOMProperty.js",
+          "moduleName": "./~/react-dom/lib/DOMProperty.js",
+          "type": "cjs require",
+          "userRequest": "./reactProdInvariant",
+          "loc": "13:21-52"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/ReactUpdateQueue.js",
@@ -25043,15 +24986,6 @@
           "loc": "13:21-52"
         },
         {
-          "moduleId": "./node_modules/react-dom/lib/ReactOwner.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactOwner.js",
-          "module": "./~/react-dom/lib/ReactOwner.js",
-          "moduleName": "./~/react-dom/lib/ReactOwner.js",
-          "type": "cjs require",
-          "userRequest": "./reactProdInvariant",
-          "loc": "14:21-52"
-        },
-        {
           "moduleId": "./node_modules/react-dom/lib/ReactCompositeComponent.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactCompositeComponent.js",
           "module": "./~/react-dom/lib/ReactCompositeComponent.js",
@@ -25059,6 +24993,15 @@
           "type": "cjs require",
           "userRequest": "./reactProdInvariant",
           "loc": "13:21-52"
+        },
+        {
+          "moduleId": "./node_modules/react-dom/lib/ReactOwner.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-dom/lib/ReactOwner.js",
+          "module": "./~/react-dom/lib/ReactOwner.js",
+          "moduleName": "./~/react-dom/lib/ReactOwner.js",
+          "type": "cjs require",
+          "userRequest": "./reactProdInvariant",
+          "loc": "14:21-52"
         },
         {
           "moduleId": "./node_modules/react-dom/lib/Danger.js",
@@ -26053,22 +25996,13 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-redux/es/connect/mapStateToProps.js",
-      "issuerId": "./node_modules/react-redux/es/connect/mapStateToProps.js",
-      "issuerName": "./~/react-redux/es/connect/mapStateToProps.js",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "issuerId": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "issuerName": "./~/react-redux/es/connect/mapDispatchToProps.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "./node_modules/react-redux/es/connect/mapStateToProps.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-redux/es/connect/mapStateToProps.js",
-          "module": "./~/react-redux/es/connect/mapStateToProps.js",
-          "moduleName": "./~/react-redux/es/connect/mapStateToProps.js",
-          "type": "harmony import",
-          "userRequest": "./wrapMapToProps",
-          "loc": "1:0-78"
-        },
         {
           "moduleId": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-redux/es/connect/mapDispatchToProps.js",
@@ -26077,6 +26011,15 @@
           "type": "harmony import",
           "userRequest": "./wrapMapToProps",
           "loc": "2:0-78"
+        },
+        {
+          "moduleId": "./node_modules/react-redux/es/connect/mapStateToProps.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-redux/es/connect/mapStateToProps.js",
+          "module": "./~/react-redux/es/connect/mapStateToProps.js",
+          "moduleName": "./~/react-redux/es/connect/mapStateToProps.js",
+          "type": "harmony import",
+          "userRequest": "./wrapMapToProps",
+          "loc": "1:0-78"
         }
       ],
       "usedExports": [
@@ -26150,19 +26093,19 @@
           "loc": "3:20-42"
         },
         {
-          "moduleId": "./src/containers/Assessments.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessments.tsx",
-          "module": "./src/containers/Assessments.tsx",
-          "moduleName": "./src/containers/Assessments.tsx",
+          "moduleId": "./src/containers/Assessment.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessment.tsx",
+          "module": "./src/containers/Assessment.tsx",
+          "moduleName": "./src/containers/Assessment.tsx",
           "type": "cjs require",
           "userRequest": "react-redux",
           "loc": "5:20-42"
         },
         {
-          "moduleId": "./src/containers/Assessment.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessment.tsx",
-          "module": "./src/containers/Assessment.tsx",
-          "moduleName": "./src/containers/Assessment.tsx",
+          "moduleId": "./src/containers/Assessments.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessments.tsx",
+          "module": "./src/containers/Assessments.tsx",
+          "moduleName": "./src/containers/Assessments.tsx",
           "type": "cjs require",
           "userRequest": "react-redux",
           "loc": "5:20-42"
@@ -26445,15 +26388,6 @@
           "loc": "9:0-39"
         },
         {
-          "moduleId": "./node_modules/react-redux/es/connect/verifySubselectors.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-redux/es/connect/verifySubselectors.js",
-          "module": "./~/react-redux/es/connect/verifySubselectors.js",
-          "moduleName": "./~/react-redux/es/connect/verifySubselectors.js",
-          "type": "harmony import",
-          "userRequest": "../utils/warning",
-          "loc": "1:0-39"
-        },
-        {
           "moduleId": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-redux/es/utils/verifyPlainObject.js",
           "module": "./~/react-redux/es/utils/verifyPlainObject.js",
@@ -26461,6 +26395,15 @@
           "type": "harmony import",
           "userRequest": "./warning",
           "loc": "2:0-32"
+        },
+        {
+          "moduleId": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-redux/es/connect/verifySubselectors.js",
+          "module": "./~/react-redux/es/connect/verifySubselectors.js",
+          "moduleName": "./~/react-redux/es/connect/verifySubselectors.js",
+          "type": "harmony import",
+          "userRequest": "../utils/warning",
+          "loc": "1:0-39"
         }
       ],
       "usedExports": [
@@ -28535,6 +28478,43 @@
       "source": "/**\n * Copyright 2013-2014 Facebook, Inc.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n *\n * @providesModule TapEventPlugin\n * @typechecks static-only\n */\n\n\"use strict\";\n\nvar EventConstants = require('react-dom/lib/EventConstants');\nvar EventPluginUtils = require('react-dom/lib/EventPluginUtils');\nvar EventPropagators = require('react-dom/lib/EventPropagators');\nvar SyntheticUIEvent = require('react-dom/lib/SyntheticUIEvent');\nvar TouchEventUtils = require('./TouchEventUtils');\nvar ViewportMetrics = require('react-dom/lib/ViewportMetrics');\n\nvar keyOf = require('fbjs/lib/keyOf');\nvar topLevelTypes = EventConstants.topLevelTypes;\n\nvar isStartish = EventPluginUtils.isStartish;\nvar isEndish = EventPluginUtils.isEndish;\n\nvar isTouch = function(topLevelType) {\n  var touchTypes = [\n    'topTouchCancel',\n    'topTouchEnd',\n    'topTouchStart',\n    'topTouchMove'\n  ];\n  return touchTypes.indexOf(topLevelType) >= 0;\n}\n\n/**\n * Number of pixels that are tolerated in between a `touchStart` and `touchEnd`\n * in order to still be considered a 'tap' event.\n */\nvar tapMoveThreshold = 10;\nvar ignoreMouseThreshold = 750;\nvar startCoords = {x: null, y: null};\nvar lastTouchEvent = null;\n\nvar Axis = {\n  x: {page: 'pageX', client: 'clientX', envScroll: 'currentPageScrollLeft'},\n  y: {page: 'pageY', client: 'clientY', envScroll: 'currentPageScrollTop'}\n};\n\nfunction getAxisCoordOfEvent(axis, nativeEvent) {\n  var singleTouch = TouchEventUtils.extractSingleTouch(nativeEvent);\n  if (singleTouch) {\n    return singleTouch[axis.page];\n  }\n  return axis.page in nativeEvent ?\n    nativeEvent[axis.page] :\n    nativeEvent[axis.client] + ViewportMetrics[axis.envScroll];\n}\n\nfunction getDistance(coords, nativeEvent) {\n  var pageX = getAxisCoordOfEvent(Axis.x, nativeEvent);\n  var pageY = getAxisCoordOfEvent(Axis.y, nativeEvent);\n  return Math.pow(\n    Math.pow(pageX - coords.x, 2) + Math.pow(pageY - coords.y, 2),\n    0.5\n  );\n}\n\nvar touchEvents = [\n  'topTouchStart',\n  'topTouchCancel',\n  'topTouchEnd',\n  'topTouchMove',\n];\n\nvar dependencies = [\n  'topMouseDown',\n  'topMouseMove',\n  'topMouseUp',\n].concat(touchEvents);\n\nvar eventTypes = {\n  touchTap: {\n    phasedRegistrationNames: {\n      bubbled: keyOf({onTouchTap: null}),\n      captured: keyOf({onTouchTapCapture: null})\n    },\n    dependencies: dependencies\n  }\n};\n\nvar now = (function() {\n  if (Date.now) {\n    return Date.now;\n  } else {\n    // IE8 support: http://stackoverflow.com/questions/9430357/please-explain-why-and-how-new-date-works-as-workaround-for-date-now-in\n    return function () {\n      return +new Date;\n    }\n  }\n})();\n\nfunction createTapEventPlugin(shouldRejectClick) {\n  return {\n\n    tapMoveThreshold: tapMoveThreshold,\n\n    ignoreMouseThreshold: ignoreMouseThreshold,\n\n    eventTypes: eventTypes,\n\n    /**\n     * @param {string} topLevelType Record from `EventConstants`.\n     * @param {DOMEventTarget} targetInst The listening component root node.\n     * @param {object} nativeEvent Native browser event.\n     * @return {*} An accumulation of synthetic events.\n     * @see {EventPluginHub.extractEvents}\n     */\n    extractEvents: function(\n      topLevelType,\n      targetInst,\n      nativeEvent,\n      nativeEventTarget\n    ) {\n\n      if (!isStartish(topLevelType) && !isEndish(topLevelType)) {\n        return null;\n      }\n\n      if (isTouch(topLevelType)) {\n        lastTouchEvent = now();\n      } else {\n        if (shouldRejectClick(lastTouchEvent, now())) {\n          return null;\n        }\n      }\n\n      var event = null;\n      var distance = getDistance(startCoords, nativeEvent);\n      if (isEndish(topLevelType) && distance < tapMoveThreshold) {\n        event = SyntheticUIEvent.getPooled(\n          eventTypes.touchTap,\n          targetInst,\n          nativeEvent,\n          nativeEventTarget\n        );\n      }\n      if (isStartish(topLevelType)) {\n        startCoords.x = getAxisCoordOfEvent(Axis.x, nativeEvent);\n        startCoords.y = getAxisCoordOfEvent(Axis.y, nativeEvent);\n      } else if (isEndish(topLevelType)) {\n        startCoords.x = 0;\n        startCoords.y = 0;\n      }\n      EventPropagators.accumulateTwoPhaseDispatches(event);\n      return event;\n    }\n\n  };\n}\n\nmodule.exports = createTapEventPlugin;\n"
     },
     {
+      "id": "./node_modules/react-tap-event-plugin/src/TouchEventUtils.js",
+      "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-tap-event-plugin/src/TouchEventUtils.js",
+      "name": "./~/react-tap-event-plugin/src/TouchEventUtils.js",
+      "index": 636,
+      "index2": 632,
+      "size": 1552,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        7
+      ],
+      "assets": [],
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-tap-event-plugin/src/TapEventPlugin.js",
+      "issuerId": "./node_modules/react-tap-event-plugin/src/TapEventPlugin.js",
+      "issuerName": "./~/react-tap-event-plugin/src/TapEventPlugin.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": "./node_modules/react-tap-event-plugin/src/TapEventPlugin.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-tap-event-plugin/src/TapEventPlugin.js",
+          "module": "./~/react-tap-event-plugin/src/TapEventPlugin.js",
+          "moduleName": "./~/react-tap-event-plugin/src/TapEventPlugin.js",
+          "type": "cjs require",
+          "userRequest": "./TouchEventUtils",
+          "loc": "26:22-50"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 4,
+      "source": "/**\n * Copyright 2013-2014 Facebook, Inc.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n *\n * @providesModule TouchEventUtils\n */\n\nvar TouchEventUtils = {\n  /**\n   * Utility function for common case of extracting out the primary touch from a\n   * touch event.\n   * - `touchEnd` events usually do not have the `touches` property.\n   *   http://stackoverflow.com/questions/3666929/\n   *   mobile-sarai-touchend-event-not-firing-when-last-touch-is-removed\n   *\n   * @param {Event} nativeEvent Native event that may or may not be a touch.\n   * @return {TouchesObject?} an object with pageX and pageY or null.\n   */\n  extractSingleTouch: function(nativeEvent) {\n    var touches = nativeEvent.touches;\n    var changedTouches = nativeEvent.changedTouches;\n    var hasTouches = touches && touches.length > 0;\n    var hasChangedTouches = changedTouches && changedTouches.length > 0;\n\n    return !hasTouches && hasChangedTouches ? changedTouches[0] :\n           hasTouches ? touches[0] :\n           nativeEvent;\n  }\n};\n\nmodule.exports = TouchEventUtils;\n"
+    },
+    {
       "id": "./node_modules/react-tap-event-plugin/src/defaultClickRejectionStrategy.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-tap-event-plugin/src/defaultClickRejectionStrategy.js",
       "name": "./~/react-tap-event-plugin/src/defaultClickRejectionStrategy.js",
@@ -29999,19 +29979,19 @@
           "loc": "18:12-28"
         },
         {
-          "moduleId": "./src/components/Theme.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/Theme.tsx",
-          "module": "./src/components/Theme.tsx",
-          "moduleName": "./src/components/Theme.tsx",
+          "moduleId": "./src/components/Dashboard.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/Dashboard.tsx",
+          "module": "./src/components/Dashboard.tsx",
+          "moduleName": "./src/components/Dashboard.tsx",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "13:12-28"
         },
         {
-          "moduleId": "./src/components/Dashboard.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/Dashboard.tsx",
-          "module": "./src/components/Dashboard.tsx",
-          "moduleName": "./src/components/Dashboard.tsx",
+          "moduleId": "./src/components/Theme.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/Theme.tsx",
+          "module": "./src/components/Theme.tsx",
+          "moduleName": "./src/components/Theme.tsx",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "13:12-28"
@@ -30080,15 +30060,6 @@
           "loc": "13:12-28"
         },
         {
-          "moduleId": "./src/components/Assessments.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/Assessments.tsx",
-          "module": "./src/components/Assessments.tsx",
-          "moduleName": "./src/components/Assessments.tsx",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "13:12-28"
-        },
-        {
           "moduleId": "./src/components/Assessment.tsx",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/Assessment.tsx",
           "module": "./src/components/Assessment.tsx",
@@ -30098,10 +30069,10 @@
           "loc": "13:12-28"
         },
         {
-          "moduleId": "./src/components/AssessmentResult.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/AssessmentResult.tsx",
-          "module": "./src/components/AssessmentResult.tsx",
-          "moduleName": "./src/components/AssessmentResult.tsx",
+          "moduleId": "./src/components/Assessments.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/Assessments.tsx",
+          "module": "./src/components/Assessments.tsx",
+          "moduleName": "./src/components/Assessments.tsx",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "13:12-28"
@@ -30125,6 +30096,15 @@
           "loc": "13:12-28"
         },
         {
+          "moduleId": "./src/components/AssessmentResult.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/AssessmentResult.tsx",
+          "module": "./src/components/AssessmentResult.tsx",
+          "moduleName": "./src/components/AssessmentResult.tsx",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "13:12-28"
+        },
+        {
           "moduleId": "./src/components/PageWithLinks.tsx",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/components/PageWithLinks.tsx",
           "module": "./src/components/PageWithLinks.tsx",
@@ -30134,15 +30114,6 @@
           "loc": "21:12-28"
         },
         {
-          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-back.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/svg-icons/navigation/arrow-back.js",
-          "module": "./~/material-ui/svg-icons/navigation/arrow-back.js",
-          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-back.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "7:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/styles/MuiThemeProvider.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/styles/MuiThemeProvider.js",
           "module": "./~/material-ui/styles/MuiThemeProvider.js",
@@ -30150,6 +30121,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "27:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/svg-icons/navigation/arrow-back.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/svg-icons/navigation/arrow-back.js",
+          "module": "./~/material-ui/svg-icons/navigation/arrow-back.js",
+          "moduleName": "./~/material-ui/svg-icons/navigation/arrow-back.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "7:13-29"
         },
         {
           "moduleId": "./src/components/AppSnackBar.tsx",
@@ -30206,15 +30186,6 @@
           "loc": "13:12-28"
         },
         {
-          "moduleId": "./node_modules/react-router/es/Link.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/Link.js",
-          "module": "./~/react-router/es/Link.js",
-          "moduleName": "./~/react-router/es/Link.js",
-          "type": "harmony import",
-          "userRequest": "react",
-          "loc": "5:0-26"
-        },
-        {
           "moduleId": "./node_modules/react-router/es/Router.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/Router.js",
           "module": "./~/react-router/es/Router.js",
@@ -30222,6 +30193,15 @@
           "type": "harmony import",
           "userRequest": "react",
           "loc": "6:0-26"
+        },
+        {
+          "moduleId": "./node_modules/react-router/es/Link.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/Link.js",
+          "module": "./~/react-router/es/Link.js",
+          "moduleName": "./~/react-router/es/Link.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "5:0-26"
         },
         {
           "moduleId": "./node_modules/react-router/es/IndexLink.js",
@@ -30287,15 +30267,6 @@
           "loc": "3:0-26"
         },
         {
-          "moduleId": "./node_modules/react-router/es/PropTypes.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/PropTypes.js",
-          "module": "./~/react-router/es/PropTypes.js",
-          "moduleName": "./~/react-router/es/PropTypes.js",
-          "type": "harmony import",
-          "userRequest": "react",
-          "loc": "1:0-34"
-        },
-        {
           "moduleId": "./node_modules/react-router/es/RouterContext.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/RouterContext.js",
           "module": "./~/react-router/es/RouterContext.js",
@@ -30303,6 +30274,15 @@
           "type": "harmony import",
           "userRequest": "react",
           "loc": "6:0-26"
+        },
+        {
+          "moduleId": "./node_modules/react-router/es/PropTypes.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/PropTypes.js",
+          "module": "./~/react-router/es/PropTypes.js",
+          "moduleName": "./~/react-router/es/PropTypes.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "1:0-34"
         },
         {
           "moduleId": "./node_modules/react-router/es/applyRouterMiddleware.js",
@@ -30341,19 +30321,19 @@
           "loc": "13:12-28"
         },
         {
-          "moduleId": "./node_modules/react-router/es/ContextUtils.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/ContextUtils.js",
-          "module": "./~/react-router/es/ContextUtils.js",
-          "moduleName": "./~/react-router/es/ContextUtils.js",
+          "moduleId": "./node_modules/react-router/es/InternalPropTypes.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/InternalPropTypes.js",
+          "module": "./~/react-router/es/InternalPropTypes.js",
+          "moduleName": "./~/react-router/es/InternalPropTypes.js",
           "type": "harmony import",
           "userRequest": "react",
           "loc": "1:0-34"
         },
         {
-          "moduleId": "./node_modules/react-router/es/InternalPropTypes.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/InternalPropTypes.js",
-          "module": "./~/react-router/es/InternalPropTypes.js",
-          "moduleName": "./~/react-router/es/InternalPropTypes.js",
+          "moduleId": "./node_modules/react-router/es/ContextUtils.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/react-router/es/ContextUtils.js",
+          "module": "./~/react-router/es/ContextUtils.js",
+          "moduleName": "./~/react-router/es/ContextUtils.js",
           "type": "harmony import",
           "userRequest": "react",
           "loc": "1:0-34"
@@ -30431,28 +30411,10 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "39:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardHeader.js",
           "module": "./~/material-ui/Card/CardHeader.js",
           "moduleName": "./~/material-ui/Card/CardHeader.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "39:13-29"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
-          "module": "./~/material-ui/Card/CardTitle.js",
-          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
@@ -30467,10 +30429,28 @@
           "loc": "39:13-29"
         },
         {
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "39:13-29"
+        },
+        {
           "moduleId": "./node_modules/material-ui/Card/CardMedia.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardMedia.js",
           "module": "./~/material-ui/Card/CardMedia.js",
           "moduleName": "./~/material-ui/Card/CardMedia.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "39:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
+          "module": "./~/material-ui/Card/CardTitle.js",
+          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
@@ -30503,24 +30483,6 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
-          "module": "./~/material-ui/AppBar/AppBar.js",
-          "moduleName": "./~/material-ui/AppBar/AppBar.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "45:13-29"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Menu/Menu.js",
-          "module": "./~/material-ui/Menu/Menu.js",
-          "moduleName": "./~/material-ui/Menu/Menu.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "43:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Divider/Divider.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Divider/Divider.js",
           "module": "./~/material-ui/Divider/Divider.js",
@@ -30537,6 +30499,24 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "31:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/AppBar/AppBar.js",
+          "module": "./~/material-ui/AppBar/AppBar.js",
+          "moduleName": "./~/material-ui/AppBar/AppBar.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "45:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Menu/Menu.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Menu/Menu.js",
+          "module": "./~/material-ui/Menu/Menu.js",
+          "moduleName": "./~/material-ui/Menu/Menu.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "43:13-29"
         },
         {
           "moduleId": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
@@ -30593,19 +30573,19 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
-          "module": "./~/material-ui/internal/EnhancedButton.js",
-          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
+          "module": "./~/material-ui/internal/Tooltip.js",
+          "moduleName": "./~/material-ui/internal/Tooltip.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
-          "module": "./~/material-ui/internal/Tooltip.js",
-          "moduleName": "./~/material-ui/internal/Tooltip.js",
+          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
+          "module": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
@@ -30647,6 +30627,15 @@
           "loc": "31:13-29"
         },
         {
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "39:13-29"
+        },
+        {
           "moduleId": "./node_modules/material-ui/internal/ClickAwayListener.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/ClickAwayListener.js",
           "module": "./~/material-ui/internal/ClickAwayListener.js",
@@ -30660,15 +30649,6 @@
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
           "module": "./~/material-ui/List/List.js",
           "moduleName": "./~/material-ui/List/List.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "39:13-29"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
@@ -30818,19 +30798,19 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "39:13-29"
@@ -30926,15 +30906,6 @@
           "loc": "39:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
-          "module": "./~/material-ui/TextField/TextFieldHint.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "11:13-29"
-        },
-        {
           "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
           "module": "./~/material-ui/TextField/TextFieldLabel.js",
@@ -30944,10 +30915,10 @@
           "loc": "11:13-29"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
+          "module": "./~/material-ui/TextField/TextFieldHint.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "11:13-29"
@@ -30978,6 +30949,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "31:13-29"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "11:13-29"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -31113,6 +31093,73 @@
       "providedExports": null,
       "depth": 6,
       "source": "'use strict';\n\nexports.__esModule = true;\nvar createHelper = function createHelper(func, helperName) {\n  var setDisplayName = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;\n  var noArgs = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n\n  if (process.env.NODE_ENV !== 'production' && setDisplayName) {\n    var _ret = function () {\n      /* eslint-disable global-require */\n      var wrapDisplayName = require('./wrapDisplayName').default;\n      /* eslint-enable global-require */\n\n      if (noArgs) {\n        return {\n          v: function v(BaseComponent) {\n            var Component = func(BaseComponent);\n            Component.displayName = wrapDisplayName(BaseComponent, helperName);\n            return Component;\n          }\n        };\n      }\n\n      return {\n        v: function v() {\n          for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n            args[_key] = arguments[_key];\n          }\n\n          return function (BaseComponent) {\n            var Component = func.apply(undefined, args)(BaseComponent);\n            Component.displayName = wrapDisplayName(BaseComponent, helperName);\n            return Component;\n          };\n        }\n      };\n    }();\n\n    if (typeof _ret === \"object\") return _ret.v;\n  }\n\n  return func;\n};\n\nexports.default = createHelper;"
+    },
+    {
+      "id": "./node_modules/redux/es/applyMiddleware.js",
+      "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/redux/es/applyMiddleware.js",
+      "name": "./~/redux/es/applyMiddleware.js",
+      "index": 419,
+      "index2": 412,
+      "size": 1805,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        7
+      ],
+      "assets": [],
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/redux/es/index.js",
+      "issuerId": "./node_modules/redux/es/index.js",
+      "issuerName": "./~/redux/es/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": "./node_modules/redux/es/index.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/redux/es/index.js",
+          "module": "./~/redux/es/index.js",
+          "moduleName": "./~/redux/es/index.js",
+          "type": "harmony import",
+          "userRequest": "./applyMiddleware",
+          "loc": "4:0-48"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "depth": 4,
+      "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nimport compose from './compose';\n\n/**\n * Creates a store enhancer that applies middleware to the dispatch method\n * of the Redux store. This is handy for a variety of tasks, such as expressing\n * asynchronous actions in a concise manner, or logging every action payload.\n *\n * See `redux-thunk` package as an example of the Redux middleware.\n *\n * Because middleware is potentially asynchronous, this should be the first\n * store enhancer in the composition chain.\n *\n * Note that each middleware will be given the `dispatch` and `getState` functions\n * as named arguments.\n *\n * @param {...Function} middlewares The middleware chain to be applied.\n * @returns {Function} A store enhancer applying the middleware.\n */\nexport default function applyMiddleware() {\n  for (var _len = arguments.length, middlewares = Array(_len), _key = 0; _key < _len; _key++) {\n    middlewares[_key] = arguments[_key];\n  }\n\n  return function (createStore) {\n    return function (reducer, preloadedState, enhancer) {\n      var store = createStore(reducer, preloadedState, enhancer);\n      var _dispatch = store.dispatch;\n      var chain = [];\n\n      var middlewareAPI = {\n        getState: store.getState,\n        dispatch: function dispatch(action) {\n          return _dispatch(action);\n        }\n      };\n      chain = middlewares.map(function (middleware) {\n        return middleware(middlewareAPI);\n      });\n      _dispatch = compose.apply(undefined, chain)(store.dispatch);\n\n      return _extends({}, store, {\n        dispatch: _dispatch\n      });\n    };\n  };\n}"
+    },
+    {
+      "id": 0,
+      "identifier": "multi ./src/index.tsx",
+      "name": "multi ./src/index.tsx",
+      "index": 0,
+      "index2": 646,
+      "size": 28,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        7
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 0
     },
     {
       "id": "./node_modules/recompose/isClassComponent.js",
@@ -31500,47 +31547,6 @@
       "source": "'use strict';\n\nexports.__esModule = true;\nfunction createThunkMiddleware(extraArgument) {\n  return function (_ref) {\n    var dispatch = _ref.dispatch,\n        getState = _ref.getState;\n    return function (next) {\n      return function (action) {\n        if (typeof action === 'function') {\n          return action(dispatch, getState, extraArgument);\n        }\n\n        return next(action);\n      };\n    };\n  };\n}\n\nvar thunk = createThunkMiddleware();\nthunk.withExtraArgument = createThunkMiddleware;\n\nexports['default'] = thunk;"
     },
     {
-      "id": "./node_modules/redux/es/applyMiddleware.js",
-      "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/redux/es/applyMiddleware.js",
-      "name": "./~/redux/es/applyMiddleware.js",
-      "index": 419,
-      "index2": 412,
-      "size": 1805,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        7
-      ],
-      "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/redux/es/index.js",
-      "issuerId": "./node_modules/redux/es/index.js",
-      "issuerName": "./~/redux/es/index.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": "./node_modules/redux/es/index.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/redux/es/index.js",
-          "module": "./~/redux/es/index.js",
-          "moduleName": "./~/redux/es/index.js",
-          "type": "harmony import",
-          "userRequest": "./applyMiddleware",
-          "loc": "4:0-48"
-        }
-      ],
-      "usedExports": [
-        "default"
-      ],
-      "providedExports": [
-        "default"
-      ],
-      "depth": 4,
-      "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nimport compose from './compose';\n\n/**\n * Creates a store enhancer that applies middleware to the dispatch method\n * of the Redux store. This is handy for a variety of tasks, such as expressing\n * asynchronous actions in a concise manner, or logging every action payload.\n *\n * See `redux-thunk` package as an example of the Redux middleware.\n *\n * Because middleware is potentially asynchronous, this should be the first\n * store enhancer in the composition chain.\n *\n * Note that each middleware will be given the `dispatch` and `getState` functions\n * as named arguments.\n *\n * @param {...Function} middlewares The middleware chain to be applied.\n * @returns {Function} A store enhancer applying the middleware.\n */\nexport default function applyMiddleware() {\n  for (var _len = arguments.length, middlewares = Array(_len), _key = 0; _key < _len; _key++) {\n    middlewares[_key] = arguments[_key];\n  }\n\n  return function (createStore) {\n    return function (reducer, preloadedState, enhancer) {\n      var store = createStore(reducer, preloadedState, enhancer);\n      var _dispatch = store.dispatch;\n      var chain = [];\n\n      var middlewareAPI = {\n        getState: store.getState,\n        dispatch: function dispatch(action) {\n          return _dispatch(action);\n        }\n      };\n      chain = middlewares.map(function (middleware) {\n        return middleware(middlewareAPI);\n      });\n      _dispatch = compose.apply(undefined, chain)(store.dispatch);\n\n      return _extends({}, store, {\n        dispatch: _dispatch\n      });\n    };\n  };\n}"
-    },
-    {
       "id": "./node_modules/redux/es/bindActionCreators.js",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/redux/es/bindActionCreators.js",
       "name": "./~/redux/es/bindActionCreators.js",
@@ -31901,28 +31907,10 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Card/Card.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
-          "module": "./~/material-ui/Card/Card.js",
-          "moduleName": "./~/material-ui/Card/Card.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "35:20-44"
-        },
-        {
           "moduleId": "./node_modules/material-ui/Card/CardHeader.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardHeader.js",
           "module": "./~/material-ui/Card/CardHeader.js",
           "moduleName": "./~/material-ui/Card/CardHeader.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "35:20-44"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
-          "module": "./~/material-ui/Card/CardTitle.js",
-          "moduleName": "./~/material-ui/Card/CardTitle.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
@@ -31937,10 +31925,37 @@
           "loc": "35:20-44"
         },
         {
+          "moduleId": "./node_modules/material-ui/Card/Card.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/Card.js",
+          "module": "./~/material-ui/Card/Card.js",
+          "moduleName": "./~/material-ui/Card/Card.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "35:20-44"
+        },
+        {
           "moduleId": "./node_modules/material-ui/Card/CardMedia.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardMedia.js",
           "module": "./~/material-ui/Card/CardMedia.js",
           "moduleName": "./~/material-ui/Card/CardMedia.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "35:20-44"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Card/CardTitle.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Card/CardTitle.js",
+          "module": "./~/material-ui/Card/CardTitle.js",
+          "moduleName": "./~/material-ui/Card/CardTitle.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "35:20-44"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/FlatButton/FlatButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/FlatButton/FlatButton.js",
+          "module": "./~/material-ui/FlatButton/FlatButton.js",
+          "moduleName": "./~/material-ui/FlatButton/FlatButton.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
@@ -31964,13 +31979,22 @@
           "loc": "27:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/FlatButton/FlatButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/FlatButton/FlatButton.js",
-          "module": "./~/material-ui/FlatButton/FlatButton.js",
-          "moduleName": "./~/material-ui/FlatButton/FlatButton.js",
+          "moduleId": "./node_modules/material-ui/Divider/Divider.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Divider/Divider.js",
+          "module": "./~/material-ui/Divider/Divider.js",
+          "moduleName": "./~/material-ui/Divider/Divider.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
-          "loc": "35:20-44"
+          "loc": "15:20-44"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
+          "module": "./~/material-ui/Drawer/Drawer.js",
+          "moduleName": "./~/material-ui/Drawer/Drawer.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "27:20-44"
         },
         {
           "moduleId": "./node_modules/material-ui/AppBar/AppBar.js",
@@ -31991,24 +32015,6 @@
           "loc": "39:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Divider/Divider.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Divider/Divider.js",
-          "module": "./~/material-ui/Divider/Divider.js",
-          "moduleName": "./~/material-ui/Divider/Divider.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "15:20-44"
-        },
-        {
-          "moduleId": "./node_modules/material-ui/Drawer/Drawer.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Drawer/Drawer.js",
-          "module": "./~/material-ui/Drawer/Drawer.js",
-          "moduleName": "./~/material-ui/Drawer/Drawer.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "27:20-44"
-        },
-        {
           "moduleId": "./node_modules/material-ui/SvgIcon/SvgIcon.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/SvgIcon/SvgIcon.js",
           "module": "./~/material-ui/SvgIcon/SvgIcon.js",
@@ -32018,19 +32024,19 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
-          "module": "./~/material-ui/internal/EnhancedButton.js",
-          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
+          "module": "./~/material-ui/internal/Tooltip.js",
+          "moduleName": "./~/material-ui/internal/Tooltip.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Tooltip.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Tooltip.js",
-          "module": "./~/material-ui/internal/Tooltip.js",
-          "moduleName": "./~/material-ui/internal/Tooltip.js",
+          "moduleId": "./node_modules/material-ui/internal/EnhancedButton.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/EnhancedButton.js",
+          "module": "./~/material-ui/internal/EnhancedButton.js",
+          "moduleName": "./~/material-ui/internal/EnhancedButton.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
@@ -32063,19 +32069,19 @@
           "loc": "27:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/List/List.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
-          "module": "./~/material-ui/List/List.js",
-          "moduleName": "./~/material-ui/List/List.js",
+          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
+          "module": "./~/material-ui/internal/Overlay.js",
+          "moduleName": "./~/material-ui/internal/Overlay.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/internal/Overlay.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/internal/Overlay.js",
-          "module": "./~/material-ui/internal/Overlay.js",
-          "moduleName": "./~/material-ui/internal/Overlay.js",
+          "moduleId": "./node_modules/material-ui/List/List.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/List/List.js",
+          "module": "./~/material-ui/List/List.js",
+          "moduleName": "./~/material-ui/List/List.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
@@ -32153,19 +32159,19 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
-          "module": "./~/material-ui/Paper/Paper.js",
-          "moduleName": "./~/material-ui/Paper/Paper.js",
+          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
+          "module": "./~/material-ui/Avatar/Avatar.js",
+          "moduleName": "./~/material-ui/Avatar/Avatar.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/Avatar/Avatar.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Avatar/Avatar.js",
-          "module": "./~/material-ui/Avatar/Avatar.js",
-          "moduleName": "./~/material-ui/Avatar/Avatar.js",
+          "moduleId": "./node_modules/material-ui/Paper/Paper.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/Paper/Paper.js",
+          "module": "./~/material-ui/Paper/Paper.js",
+          "moduleName": "./~/material-ui/Paper/Paper.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "35:20-44"
@@ -32243,15 +32249,6 @@
           "loc": "35:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
-          "module": "./~/material-ui/TextField/TextFieldHint.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
-          "type": "cjs require",
-          "userRequest": "simple-assign",
-          "loc": "7:20-44"
-        },
-        {
           "moduleId": "./node_modules/material-ui/TextField/TextFieldLabel.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldLabel.js",
           "module": "./~/material-ui/TextField/TextFieldLabel.js",
@@ -32261,10 +32258,10 @@
           "loc": "7:20-44"
         },
         {
-          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
-          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
-          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldHint.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldHint.js",
+          "module": "./~/material-ui/TextField/TextFieldHint.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldHint.js",
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "7:20-44"
@@ -32277,6 +32274,15 @@
           "type": "cjs require",
           "userRequest": "simple-assign",
           "loc": "27:20-44"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/TextField/TextFieldUnderline.js",
+          "module": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "moduleName": "./~/material-ui/TextField/TextFieldUnderline.js",
+          "type": "cjs require",
+          "userRequest": "simple-assign",
+          "loc": "7:20-44"
         },
         {
           "moduleId": "./node_modules/material-ui/internal/BeforeAfterWrapper.js",
@@ -32475,15 +32481,6 @@
           "loc": "16:15-33"
         },
         {
-          "moduleId": "./node_modules/material-ui/utils/callOnce.js",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/utils/callOnce.js",
-          "module": "./~/material-ui/utils/callOnce.js",
-          "moduleName": "./~/material-ui/utils/callOnce.js",
-          "type": "cjs require",
-          "userRequest": "warning",
-          "loc": "8:15-33"
-        },
-        {
           "moduleId": "./node_modules/material-ui/utils/autoprefixer.js",
           "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/utils/autoprefixer.js",
           "module": "./~/material-ui/utils/autoprefixer.js",
@@ -32491,6 +32488,15 @@
           "type": "cjs require",
           "userRequest": "warning",
           "loc": "68:15-33"
+        },
+        {
+          "moduleId": "./node_modules/material-ui/utils/callOnce.js",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/material-ui/utils/callOnce.js",
+          "module": "./~/material-ui/utils/callOnce.js",
+          "moduleName": "./~/material-ui/utils/callOnce.js",
+          "type": "cjs require",
+          "userRequest": "warning",
+          "loc": "8:15-33"
         },
         {
           "moduleId": "./node_modules/react-router/es/routerWarning.js",
@@ -34098,8 +34104,8 @@
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/webpack-path-rewriter/index.js?{\"name\":\"[name].[ext]\"}!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/index.html",
       "name": "./src/index.html",
       "index": 643,
-      "index2": 641,
-      "size": 116,
+      "index2": 642,
+      "size": 139,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -34128,15 +34134,15 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 2,
-      "source": "require(\"./res/images/Icon_Drugs_152.png\")\nrequire(\"./res/images/Icon_Drugs_144.png\")\nmodule.exports = \"/index.html\""
+      "source": "require(\"./res/images/Icon_Drugs_152.png\")\nrequire(\"./res/images/Icon_Drugs_144.png\")\nrequire(\"./style.css\")\nmodule.exports = \"/index.html\""
     },
     {
       "id": "./src/index.tsx",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/index.tsx",
       "name": "./src/index.tsx",
       "index": 1,
-      "index2": 644,
-      "size": 1166,
+      "index2": 645,
+      "size": 1191,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -34165,7 +34171,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 1,
-      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = require(\"react\");\r\nvar ReactDOM = require(\"react-dom\");\r\nvar react_hot_loader_1 = require(\"react-hot-loader\");\r\nvar Provider_1 = require(\"./Provider\");\r\nvar injectTapEventPlugin = require(\"react-tap-event-plugin\");\r\nrequire('./res/images/Icon_Drugs_128.png');\r\nrequire('./res/images/Icon_Drugs_144.png');\r\nrequire('./res/images/Icon_Drugs_152.png');\r\nrequire('./res/images/Icon_Drugs_192.png');\r\nrequire('./res/images/Icon_Drugs_256.png');\r\nrequire('./index.html');\r\nrequire('./manifest.json');\r\nrequire(\"file-loader?name=[name].[ext]!./favicon.ico\");\r\n// Needed for onTouchTap\r\n// http://stackoverflow.com/a/34015469/988941\r\ninjectTapEventPlugin();\r\nvar render = function (Component) {\r\n    ReactDOM.render(React.createElement(react_hot_loader_1.AppContainer, null,\r\n        React.createElement(Component, null)), document.getElementById(\"spaApp\"));\r\n};\r\nrender(Provider_1.default);\r\n// Hot Module Replacement API. Only used when running the dev server.\r\nif (module.hot) {\r\n    module.hot.accept('./Provider', function () {\r\n        render(Provider_1.default);\r\n    });\r\n}\r\n"
+      "source": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = require(\"react\");\r\nvar ReactDOM = require(\"react-dom\");\r\nvar react_hot_loader_1 = require(\"react-hot-loader\");\r\nvar Provider_1 = require(\"./Provider\");\r\nvar injectTapEventPlugin = require(\"react-tap-event-plugin\");\r\nrequire('./res/images/Icon_Drugs_128.png');\r\nrequire('./res/images/Icon_Drugs_144.png');\r\nrequire('./res/images/Icon_Drugs_152.png');\r\nrequire('./res/images/Icon_Drugs_192.png');\r\nrequire('./res/images/Icon_Drugs_256.png');\r\nrequire('./index.html');\r\nrequire('./style.css');\r\nrequire('./manifest.json');\r\nrequire(\"file-loader?name=[name].[ext]!./favicon.ico\");\r\n// Needed for onTouchTap\r\n// http://stackoverflow.com/a/34015469/988941\r\ninjectTapEventPlugin();\r\nvar render = function (Component) {\r\n    ReactDOM.render(React.createElement(react_hot_loader_1.AppContainer, null,\r\n        React.createElement(Component, null)), document.getElementById(\"spaApp\"));\r\n};\r\nrender(Provider_1.default);\r\n// Hot Module Replacement API. Only used when running the dev server.\r\nif (module.hot) {\r\n    module.hot.accept('./Provider', function () {\r\n        render(Provider_1.default);\r\n    });\r\n}\r\n"
     },
     {
       "id": "./src/lib/LinearGauge/index.ts",
@@ -34853,8 +34859,8 @@
       "id": "./src/manifest.json",
       "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/webpack-path-rewriter/index.js?{\"name\":\"[name].[ext]\"}!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/manifest.json",
       "name": "./src/manifest.json",
-      "index": 644,
-      "index2": 642,
+      "index": 645,
+      "index2": 643,
       "size": 248,
       "cacheable": true,
       "built": true,
@@ -34878,7 +34884,7 @@
           "moduleName": "./src/index.tsx",
           "type": "cjs require",
           "userRequest": "./manifest.json",
-          "loc": "14:0-26"
+          "loc": "15:0-26"
         }
       ],
       "usedExports": true,
@@ -35049,27 +35055,27 @@
         7
       ],
       "assets": [],
-      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessments.tsx",
-      "issuerId": "./src/containers/Assessments.tsx",
-      "issuerName": "./src/containers/Assessments.tsx",
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessment.tsx",
+      "issuerId": "./src/containers/Assessment.tsx",
+      "issuerName": "./src/containers/Assessment.tsx",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": "./src/containers/Assessments.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessments.tsx",
-          "module": "./src/containers/Assessments.tsx",
-          "moduleName": "./src/containers/Assessments.tsx",
+          "moduleId": "./src/containers/Assessment.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessment.tsx",
+          "module": "./src/containers/Assessment.tsx",
+          "moduleName": "./src/containers/Assessment.tsx",
           "type": "cjs require",
           "userRequest": "../res/data/assessments",
           "loc": "4:20-54"
         },
         {
-          "moduleId": "./src/containers/Assessment.tsx",
-          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessment.tsx",
-          "module": "./src/containers/Assessment.tsx",
-          "moduleName": "./src/containers/Assessment.tsx",
+          "moduleId": "./src/containers/Assessments.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/containers/Assessments.tsx",
+          "module": "./src/containers/Assessments.tsx",
+          "moduleName": "./src/containers/Assessments.tsx",
           "type": "cjs require",
           "userRequest": "../res/data/assessments",
           "loc": "4:20-54"
@@ -36521,6 +36527,54 @@
       "providedExports": null,
       "depth": 6,
       "source": "module.exports = __webpack_public_path__ + \"9a534cc5448c830eb2cef2ec8fe89e25.jpg\";"
+    },
+    {
+      "id": "./src/style.css",
+      "identifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/file-loader/index.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/style.css",
+      "name": "./src/style.css",
+      "index": 644,
+      "index2": 641,
+      "size": 82,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        7
+      ],
+      "assets": [
+        "2a8f145b7ee8ae05a062e4dd03acb51e.css"
+      ],
+      "issuer": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/index.tsx",
+      "issuerId": "./src/index.tsx",
+      "issuerName": "./src/index.tsx",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": "./src/index.tsx",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/awesome-typescript-loader/dist/entry.js!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/index.tsx",
+          "module": "./src/index.tsx",
+          "moduleName": "./src/index.tsx",
+          "type": "cjs require",
+          "userRequest": "./style.css",
+          "loc": "14:0-22"
+        },
+        {
+          "moduleId": "./src/index.html",
+          "moduleIdentifier": "/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/node_modules/webpack-path-rewriter/index.js?{\"name\":\"[name].[ext]\"}!/Users/jack.lightfoot/Documents/projects/js/ad-drug-pwa/src/index.html",
+          "module": "./src/index.html",
+          "moduleName": "./src/index.html",
+          "type": "cjs require",
+          "userRequest": "./style.css",
+          "loc": "3:0-22"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 2,
+      "source": "module.exports = __webpack_public_path__ + \"2a8f145b7ee8ae05a062e4dd03acb51e.css\";"
     }
   ],
   "filteredModules": 0,

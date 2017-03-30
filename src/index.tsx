@@ -9,6 +9,7 @@ require('./res/images/Icon_Drugs_152.png');
 require('./res/images/Icon_Drugs_192.png');
 require('./res/images/Icon_Drugs_256.png');
 require('./index.html');
+require('./style.css');
 require('./manifest.json');
 require("file-loader?name=[name].[ext]!./favicon.ico");
 // Needed for onTouchTap

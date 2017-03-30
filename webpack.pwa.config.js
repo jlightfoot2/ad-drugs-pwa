@@ -34,6 +34,10 @@ module.exports = {
                 use: ['url-loader?limit=2']
             },
             {
+                test: /\.css$/,
+                use: [ 'file-loader' ]
+            },
+            {
               test: /\.(html|json)$/,
               loader: PathRewriterPlugin.rewriteAndEmit({
                 name: '[name].[ext]'

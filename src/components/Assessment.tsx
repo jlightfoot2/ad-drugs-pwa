@@ -55,4 +55,3 @@ export default class Assessment extends React.Component<Props, State> {
         return (<Form values={values} handleChange={this.handleChange} items={questions} cancel={cancel} validateData={validateData} submitData={submitData} />);
     }
 }
-

@@ -11,6 +11,7 @@ require('./res/images/Icon_Drugs_256.png');
 require('./index.html');
 require('./style.css');
 require('./manifest.json');
+require('./version.json');
 require("file-loader?name=[name].[ext]!./favicon.ico");
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941

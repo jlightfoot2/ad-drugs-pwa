@@ -9,6 +9,7 @@ import Paper from 'material-ui/Paper';
 import AppBar from 'material-ui/AppBar';
 import Toggle from 'material-ui/Toggle';
 import MenuItem from 'material-ui/MenuItem';
+import AppSnackBarContainer from 'local-t2-sw-redux/lib/containers/UpdateSnackBar';
 //import SnackBarNotice from './SnackBarNoticeComponent';
 //import AppBarMenuIcon from './AppBarMenuIconDrawer';
 import HomeIcon from 'material-ui/svg-icons/action/home';
@@ -16,8 +17,7 @@ import IconButton from 'material-ui/IconButton';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import {push, replace} from 'react-router-redux';
-import {UpdateDialogContainer} from '../lib/local-t2-sw-redux/components';
-import AppSnackBar from './AppSnackBar'
+import AppSnackBar from './AppSnackBar';
 
 //import {FlashMessageInterface} from './data/workbook';
 
@@ -28,7 +28,6 @@ import AppSnackBar from './AppSnackBar'
 
 
 const categoryItem = (categories,pathOnTouchTap) => {
-
   return(
         <MenuDrawer pathOnTouchTap={pathOnTouchTap}>
           {categories.map(cat => {
@@ -39,7 +38,7 @@ const categoryItem = (categories,pathOnTouchTap) => {
 }
 
 interface MyProps {
- // dispatch(arg: any): any;
+  
   appBarTitle?(msg: string): any;
   categories: any[];
   pathOnTouchTap(path:string): any;
@@ -108,12 +107,11 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
                     {React.cloneElement((this.props as any).children, { appBarTitle: this.handleTitle, categories, pathOnTouchTap, appConfig: appConfig })}
                   </div>
                 </div>
-                <UpdateDialogContainer />
                 <AppSnackBar {...flashMessage} />
+                <AppSnackBarContainer />
                 {/*
                 <Eula />
                 <SnackBarNotice flash={flash} />
-
                 */}
         </div>
     );

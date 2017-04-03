@@ -44,6 +44,7 @@
     "@types/systemjs": "^0.20.1",
     "babylonjs": "^2.5.0",
     "d3": "^4.7.3",
+    "local-t2-sw-redux": "0.0.20",
     "material-ui": "^0.17.0",
     "normalizr": "^3.2.2",
     "react": "^15.4.2",

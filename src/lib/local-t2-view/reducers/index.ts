@@ -24,7 +24,7 @@ const view = (state = defaultView, action) => {
       // code...
       break;
   }
-  console.log(state);
+  
   return state;
 }
 

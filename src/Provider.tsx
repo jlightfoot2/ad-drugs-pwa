@@ -2,6 +2,7 @@ import Theme from './components/Theme';
 import Home from './containers/Home';
 import Dashboard from './components/Dashboard';
 import NotFound from './components/NotFound';
+import Debug from './containers/Debug';
 import PageContainer from './containers/Main';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -10,7 +11,7 @@ import thunkMiddleware from 'redux-thunk';
 import {Router, hashHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import {navigationCreateMiddleware} from './lib/local-t2-navigation';
-import {registerPromise} from './lib/local-t2-sw-redux';
+import {registerPromise,appMiddleware} from 'local-t2-sw-redux';
 import { createStore, applyMiddleware} from 'redux'
 import reducer from './reducers';
 import {asynRouteMaker,syncRoute} from './lib/helpers';
@@ -22,7 +23,8 @@ let store = createStore(reducer,
     applyMiddleware(
         routerMiddleware(hashHistory),
         thunkMiddleware,
-        navigationCreateMiddleware(navigationConfig)
+        navigationCreateMiddleware(navigationConfig),
+        appMiddleware({url: 'http://localhost:3014/version.json',interval: 30000})
       )
   );
 
@@ -104,6 +106,7 @@ const siteRoutes = [
     childRoutes: [
       syncRoute('/',PageContainer, quickRoutes, Home),
       syncRoute('/main',PageContainer, mainSubRoutes,Dashboard),
+      syncRoute('/debug',PageContainer, [],Debug),
       syncRoute('*',PageContainer,[],NotFound)
     ]
   }

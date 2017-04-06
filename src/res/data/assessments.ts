@@ -32,7 +32,9 @@ export interface AssessmentInterface{
   id: number;
   title: string;
   maxScore: number;
+  middleScore: number;
   minScore: number;
+  scoringMode: number;
   scoring: ScoringInterface[];
   questions: QuestionInterface[];
   image: string;
@@ -64,17 +66,17 @@ const defaultCalcScore = function(values: any){
    
       Object.keys(questions).map(function (idx) {
           let question = questions[idx];
+          if(answers && typeof answers[question.id] !== 'undefined'){
+            let choiceValue = answers[question.id];
+            let choices = questions[idx].choices;
 
-          let choiceValue = answers[question.id];
-          let choices = questions[idx].choices;
-          console.log(choiceValue);
-          console.log(choices);
-          if(choices){
-            choices.map((choice) => {
-              if(choice.value === choiceValue){
-                total += parseInt(choice.score);
-              }
-            });
+            if(choices){
+              choices.map((choice) => {
+                if(choice.value === choiceValue){
+                  total += parseInt(choice.score);
+                }
+              });
+            }
           }
       });
 
@@ -86,17 +88,19 @@ const defaultCalcScore = function(values: any){
 }
 
 
-export const makeAssessment = (id,title, minScore: number,maxScore: number, scoring: ScoringInterface[], questions: QuestionInterface[], image='',calcQuestions: (any) => any = defaultCalcQuestion, calcScore: (any) => any = defaultCalcScore ):AssessmentInterface => {
+export const makeAssessment = (id,title, minScore: number, middleScore: number, maxScore: number, scoring: ScoringInterface[], scoringMode: number, questions: QuestionInterface[], image='',calcQuestions: (any) => any = defaultCalcQuestion, calcScore: (any) => any = defaultCalcScore ):AssessmentInterface => {
   return {
     id,
     title,
     minScore,
+    middleScore,
     maxScore,
     scoring,
     questions,
     image,
     calcQuestions,
-    calcScore
+    calcScore,
+    scoringMode
   }
 }
 
@@ -131,7 +135,7 @@ const PostTraumaticStressScoring0 = makeScoring(1,0,33,'LOW',
 
 
 
-const PostTraumaticStressScoring1 = makeScoring(2,34,43,'MOD',
+const PostTraumaticStressScoring1 = makeScoring(2,34,43,'MODERATE',
                                     `<p>Although only a healthcare professional can provide an actual diagnosis, you are reporting some experiences which are similar to some moderate symptoms  associated with Post-traumatic stress.</p>`,
                                     `<p>Having experiences that are somewhat similar to those associated with post-traumatic stress doesn't mean you have post-traumatic stress disorder (PTSD).  It does mean that you should look into the concerns you are reporting because they can be upsetting and distressing.  If you've experienced these symptoms for more than a few weeks, or they are getting worse, you should consult your health care provider.  If you don't have one, you can locate a provider or a clinic near you by clicking on the <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tab in the upper right corner of the website.   If you have more immediate concerns, you can talk with a professional right now by clicking on the <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=2#qt-quick_tab_header'>CALL</a> or <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=1#qt-quick_tab_header'>CHAT</a> tabs, also found in the upper right corner of the website. Both the CALL and CHAT options are available 24-7.</p><p>Another way to explore these experiences is to check out the materials in AfterDeployment's “Post-Traumatic Stress” topic. When someone is experiencing the kinds of distressing symptoms you report, problems are often present in other areas of life. You can determine where other problems may exist or the extent of the problem by taking additional assessments.  </p><p>You can find links to these tools under the RESOURCES tab located above.</p><p> You may find it helpful to join the <a href="https://www.facebook.com/afterdeployment/timeline">AfterDeployment Facebook</a> page where you can network with others on a range of topics. </p>`
                                     );
@@ -154,7 +158,7 @@ const DepressionScoring3 = makeScoring(4,0,4,'LOW',
 
 
 
-const DepressionScoring4 = makeScoring(5,5,15,'MOD',
+const DepressionScoring4 = makeScoring(5,5,15,'MODERATE',
                                     `<p>Although only a healthcare professional can provide an actual diagnosis, your score is in a range not typically associated with depression or mood problems. However you have indicated that you have had thoughts of hurting yourself in the last month. Please review your answers to determine if they accurately reflect your mood. </p><p><strong>IF YOU ARE HAVING THOUGHTS OF SELF HARM SEEK HELP IMMEDIATELY.</strong> </p>`,
                                     `<p>You have indicated that you have recently had thoughts of harming yourself. Please review your answers to determine if they accurately reflect your mood. </p>  <p><strong>IF YOU ARE HAVING THOUGHTS OF SELF HARM SEEK HELP IMMEDIATELY.</strong></p> <p>If you would like to speak with someone, you can locate a provider or a clinic near you by clicking on the <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tab in the upper right corner of the website. If you have more immediate concerns, you can talk with a professional right now by clicking on the <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=2#qt-quick_tab_header'>CALL</a> or <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=1#qt-quick_tab_header'>CHAT</a> tabs, also found in the upper right corner of the website. Both the CALL and CHAT options are available 24-7.</p><p>Because maintaining healthy habits means a lifestyle that includes stress management and finding balance, we encourage you to check out the many tools in the “Life Stress” topic.</p><p>You're also encouraged to check out other assessments on AfterDeployment to learn if you are having problems in other areas.  You can find links to these tools under the RESOURCES tab located above.</p><p> You may find it helpful to join the <a href="https://www.facebook.com/afterdeployment/timeline">AfterDeployment Facebook</a> page where you can network with others on a range of topics. </p>`
                                     );
@@ -177,7 +181,7 @@ const AlcoholDrugsScoring9 = makeScoring(10,0,14,'LOW',
 
 
 
-const AlcoholDrugsScoring10 = makeScoring(11,15,29,'MOD',
+const AlcoholDrugsScoring10 = makeScoring(11,15,29,'MODERATE',
                                     `<p>Your score is in a range typically associated with <u>moderate</u> alcohol use.</p> <p>Although only a healthcare professional can diagnose a substance abuse problem, your results suggest that your health may not be at risk from alcohol or drug use.</p>`,
                                     `<p>After a stressful experience, some people turn to drinking to mask painful feelings. But drinking neither solves problems nor fixes painful emotions. In fact, just the opposite is true.  Drinking is much more likely to <u>worsen</u> rather than improve your level of stress.  Out-of-control drinking can often be accompanied by depression, life stress, and even post-traumatic stress, the reaction that many people experience after a major trauma. One easy way to determine if you're having problems in other areas is to take additional assessments.</p><p>We also encourage you to check out the materials in AfterDeployment's "Alcohol and drugs" topic.</p><p>You may benefit from discussing your alcohol use with a health care provider.  You can <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tab a provider or a clinic near you by clicking on the <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tab tab in the upper right corner of the website. We suggest that you share the results of this assessment with your provider. If you have more immediate concerns, you can talk with a professional right now by clicking on the <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=2#qt-quick_tab_header'>CALL</a> or <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=1#qt-quick_tab_header'>CHAT</a> tabs, also found in the upper right corner of the website.  Both the CALL and CHAT options are available 24/7.  For your convenience, you can find links to the all of the tools that were mentioned here through the RESOURCES tab <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tabd above. </p><p> You may find it helpful to join the <a href='https://www.facebook.com/afterdeployment/timeline'>AfterDeployment Facebook</a> page where you can network with others on a range of topics. </p>`
                                     );
@@ -200,7 +204,7 @@ const AnxietyScoring16 = makeScoring(17,0,5,'LOW',
 
 
 
-const AnxietyScoring17 = makeScoring(18,6,10,'MOD',
+const AnxietyScoring17 = makeScoring(18,6,10,'MODERATE',
                                     `<p>Your score is in a range typically associated with  moderate levels of the physical and cognitive symptoms of anxiety.  Although only a healthcare professional can provide an actual diagnosis, your responses suggest that the symptoms you describe may be associated with the changes that occur in the body in response to anxious concerns.</p>`,
                                     `<p>A moderate degree of anxiety typically doesn't cause significant distress but is a sign to begin to pay attention to your level of worry.  Worry causes an increase in the level of vigilance and physical arousal, energy that could be better used focusing on positive things in life.  If your anxiety symptoms have increased recently  it may be useful to discuss this with your  health care provider.   You can locate a provider or a clinic near you by clicking on the <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tab in the upper right corner on the main page.   If you have more immediate concerns, you can talk with a professional right now by clicking on the <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=2#qt-quick_tab_header'>CALL</a> or <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=1#qt-quick_tab_header'>CHAT</a> tabs, also found in the upper right corner on the main page. Both the CALL and CHAT options are available 24/7.</p><p>When someone is worrying unnecessarily, problems are often present in other areas of life. You can determine where other problems may exist or the extent of the problem by taking additional assessments. </p><p>You can find links to these tools under the RESOURCES tab located above.</p><p> You may find it helpful to join the <a href='https://www.facebook.com/afterdeployment/timeline'>AfterDeployment Facebook</a> page where you can network with others on a range of topics. </p>`
                                     );
@@ -223,7 +227,7 @@ const SleepScoring19 = makeScoring(20,0,0,'LOW',
 
 
 
-const SleepScoring20 = makeScoring(21,1,2,'MOD',
+const SleepScoring20 = makeScoring(21,1,2,'MODERATE',
                                     `<p>Your responses suggest that you are having some difficulty with sleeping and that your sleep is not as good as you'd like. </p>  <p>You report having one or two sleep problems and depending on how severe these problems are, you may be having significant difficulties with your functioning. Sleep problems need to be taken seriously. Good sleep patterns are important for your health, mood, and productivity. </p>`,
                                     `<p>We encourage you to check out the resources in the Sleep program on AfterDeployment to find out more about these problems and what you can do about them. You will find information and activities on how to manage issues with sleep and develop healthy sleep patterns. And, we would recommend that you retake this sleep assessment in 2-4 weeks to track how you are doing. We want to emphasize that while this website is here to provide information and support, AfterDeployment is not a substitute for consulting with a health care provider in person.  If you don't have a provider, you can locate a provider or a clinic near you by clicking on the <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tab in the upper right corner on the main page.  If you have more immediate concerns, you can talk with a professional right now by clicking on the <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=2#qt-quick_tab_header'>CALL</a> or <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=1#qt-quick_tab_header'>CHAT</a> tabs, also found in the upper right corner on the main page. Both the CALL and CHAT options are available 24-7.</p><p>Another way to explore these experiences is to check out the materials in AfterDeployment's “Sleep” topic. When someone is struggling with difficulty sleeping, problems are often present in other areas of life. You can determine where other problems may exist or the extent of the problem by taking additional assessments.  </p><p>You can find links to these tools under the RESOURCES tab located above.</p><p> You may find it helpful to join the <a href='https://www.facebook.com/afterdeployment/timeline'>AfterDeployment Facebook</a> page where you can network with others on a range of topics. </p>`
                                     );
@@ -246,7 +250,7 @@ const PanicScoring22 = makeScoring(23,0,20,'LOW',
 
 
 
-const PanicScoring23 = makeScoring(24,21,40,'MOD',
+const PanicScoring23 = makeScoring(24,21,40,'MODERATE',
                                     `<p>Your score is in a range typically associated with  moderate levels of the physical symptoms associated with panic attacks.  Although only a healthcare professional can provide an actual diagnosis, you report some, but not all of the symptoms of actual panic disorder. </p>`,
                                     `<p>A moderate number of panic symptoms typically doesn't cause significant, long term distress but is a sign to pay attention to how many demands you are juggling.  High stress levels cause  an increase in the level of vigilance and physical arousal.  If you've experienced an increase in these physical symptoms recently,   it may be useful to discuss this with your  health care provider. If you don't have a provider, you can locate a provider or clinic near you by clicking on the <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tab in the upper right corner of the website.  If you have more immediate concerns, you can talk with a professional right now by clicking on the <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=2#qt-quick_tab_header'>CALL</a> or <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=1#qt-quick_tab_header'>CHAT</a> tabs, also found in the upper right corner of the website. Both the CALL and CHAT options are available 24-7.</p><p>When someone is experiencing stress related symptoms,  problems are often present in other areas of life. You can determine where other problems may exist or the extent of the problem by taking additional assessments.</p><p>We also encourage you to check out the materials in AfterDeployment's "Anxiety" topic. </p><p>You can find links to these tools under the RESOURCES tab located above.</p><p> You may find it helpful to join the <a href='https://www.facebook.com/afterdeployment/timeline'>AfterDeployment Facebook</a> page where you can network with others on a range of topics. </p>`
                                     );
@@ -269,7 +273,7 @@ const PhysicalInjuryResilienceScoring25 = makeScoring(26,0,49,'LOW',
 
 
 
-const PhysicalInjuryResilienceScoring26 = makeScoring(27,50,70,'MOD',
+const PhysicalInjuryResilienceScoring26 = makeScoring(27,50,70,'MODERATE',
                                     `<p>Your results indicate that you are using many of the skills that allow you to be resilient in the face of the challenges that come with being injured, but there may be additional skills you could develop to become even more resilient.</p>`,
                                     `<p>The stress of coping with a physical injury can be significant.  You have indicated that you are using several of the skills that can increase personal resilience in the face of an injury.  Your score suggests that there may be more you can do in this area, by adding to your coping strategies or by using them more consistently.</p><p>If you'd like personal help in adding to your coping skills, you can locate a provider or clinic near you by clicking on the <a href='http://afterdeployment.dcoe.mil/locate-help'>LOCATE</a> tab in the upper right corner of the website.  If you have more immediate concerns, you can talk with a professional right now by clicking on the <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=2#qt-quick_tab_header'>CALL</a> or <a href='http://afterdeployment.dcoe.mil/home?qt-quick_tab_header=1#qt-quick_tab_header'>CHAT</a> tabs, also found in the upper right corner of the website. Both the CALL and CHAT options are available 24-7.</p><p>When people are coping with the results of a physical injury, there are often problems present in other areas of life.  You can do more exploration by taking additional assessments.  We also encourage you to check out the materials in AfterDeployment's "Physical Injury" topic.  </p><p>You can find links to these tools under the RESOURCES tab located above.</p><p> You may find it helpful to join the <a href='https://www.facebook.com/afterdeployment/timeline'>AfterDeployment Facebook</a> page where you can network with others on a range of topics. </p>`
                                     );
@@ -891,15 +895,15 @@ interface AssessmentTreeInterface {
 }
 
 const assessmentsRaw: AssessmentInterface[] = [
-  makeAssessment(1,'Alcohol and Drugs', 0, 38, AlcoholDrugsList,alcDrugsQuestions,alcImage,calcAlcDrugQuestions,calcDrugsScore),
-  makeAssessment(2,'Post-Traumatic Stress', 17, 85,PostTraumaticStressList, ptsQuestions, ptsImage),
+  makeAssessment(1,'Alcohol and Drugs', 0, 22, 38, AlcoholDrugsList,0,alcDrugsQuestions,alcImage,calcAlcDrugQuestions,calcDrugsScore),
+  makeAssessment(2,'Post-Traumatic Stress', 17, 39, 85,PostTraumaticStressList, 0, ptsQuestions, ptsImage),
 
-  makeAssessment(3,'Depression', 0, 27,DepressionList,depressionQuestions, depressImage),
-  makeAssessment(4,'Anxiety', 0, 21, AnxietyList,anxietyQuestions,anxietyImage),
-  makeAssessment(5,'Panic', 0, 60, PanicList,panicQuestions,panicImage,calcPanicQuestions, calcPanicScore),
+  makeAssessment(3,'Depression', 0, 10, 27,DepressionList, 0, depressionQuestions, depressImage),
+  makeAssessment(4,'Anxiety', 0, 8.5, 21, AnxietyList, 0, anxietyQuestions,anxietyImage),
+  makeAssessment(5,'Panic', 0, 31, 60, PanicList, 0, panicQuestions,panicImage,calcPanicQuestions, calcPanicScore),
 
-  makeAssessment(6,'Physical Injury Resilience', 0, 88, PhysicalInjuryResilienceList,physicalInjuryAssessmentQs,physInjuryImage),
-  makeAssessment(7,'Sleep', 0, 10, SleepList,sleepAssessmentQs,sleepImage)
+  makeAssessment(6,'Physical Injury Resilience', 0, 60, 88, PhysicalInjuryResilienceList, 1, physicalInjuryAssessmentQs,physInjuryImage),
+  makeAssessment(7,'Sleep', 0, 1.5, 10, SleepList, 0, sleepAssessmentQs,sleepImage)
 ]
 
 const normalData = normalize(assessmentsRaw,assessmentListSchema);

@@ -11,11 +11,23 @@ ns.tickPosition = 0.0;
 ns.width = 500;
 ns.chart_w = ns.width - 20;
 ns.svg = null;
+ns.leftIndicator = null;
+ns.rightIndicator = null;
+ns.middleIndicator = null;
+
 
 ns.create = function (el, props, state) {
   ns.width = state.width;
   ns.chart_w = ns.width;
   var scales = ns._scales(el, state.domain);
+  console.log(state);
+  let minScore = state.domain.x[0];
+  let maxScore = state.domain.x[1];
+  let scoreRange = maxScore - minScore;
+  let middleDiff = maxScore - state.middleScore;
+  scoreRange = scoreRange === 0 ? 500 : scoreRange;
+  let middlePercent = (100 - Math.floor(middleDiff/scoreRange * 100)) + '%';
+  console.log(minScore,maxScore,middleDiff,middlePercent);
   var gauge_h = 60;
 
   var chart_y_pos = 5;
@@ -30,6 +42,10 @@ ns.create = function (el, props, state) {
   .attr('width', ns.width)
   .attr('height', '100%');
   ns.svg = svg;
+
+  let highColor = state.highIsGood ? 'green' : 'red';
+  let lowColor = !state.highIsGood ? 'green' : 'red';
+  let middleScore = state.middleScore;
   var gradient = svg.append('svg:defs')
     .append('svg:linearGradient')
       .attr('id', 'gradient')
@@ -41,17 +57,17 @@ ns.create = function (el, props, state) {
 
   gradient.append('svg:stop')
       .attr('offset', '0%')
-      .attr('stop-color', '#c00')
+      .attr('stop-color', lowColor)
       .attr('stop-opacity', 1);
 
   gradient.append('svg:stop')
-      .attr('offset', '50%')
+      .attr('offset', middlePercent)
       .attr('stop-color', 'yellow')
       .attr('stop-opacity', 1);
 
   gradient.append('svg:stop')
       .attr('offset', '100%')
-      .attr('stop-color', '#0c0')
+      .attr('stop-color', highColor)
       .attr('stop-opacity', 1);
 
   svg.append('g')
@@ -68,22 +84,22 @@ ns.create = function (el, props, state) {
   *****************************************/
 
   // Left indicator
-  svg.append('g')
-    .append('text')
-    .attr('x', 0)
-    .attr('y', text_margins.top)
-    .text('Low');
+  this.leftIndicator = svg.append('g')
+          .append('text')
+          .attr('x', 0)
+          .attr('y', text_margins.top)
+          .text('Low');
 
-  svg.append('g')
+  this.middleIndicator = svg.append('g')
     .append('text')
-    .attr('x', ns.width / 2)
+    .attr('x', scales.x(middleScore))
     .attr('y', text_margins.top)
     .attr('text-anchor', 'middle')
     .text('Moderate');
 
   // Right indicator
 
-  svg.append('g')
+  this.rightIndicator = svg.append('g')
     .append('text')
     .classed('rightPrcnt', true)
     .attr('x', ns.width)
@@ -125,10 +141,13 @@ ns.update = function (el, state) {
 
   this.tickMark
         .transition()
-        .duration(2000)
+        .duration(1000)
         .delay(500)
         .attr('transform', 'translate(' + this.tickPosition + ',0)')
         ;
+
+   this.middleIndicator.attr('x', scales.x(state.middleScore));
+   this.rightIndicator.attr('x', ns.width);
 };
 
 ns._scales = function (el, domain) {

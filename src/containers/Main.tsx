@@ -6,13 +6,14 @@ import ArrowBack from 'material-ui/svg-icons/navigation/arrow-back';
 import { Link } from 'react-router';
 import MenuDrawer from '../components/MenuDrawer';
 import MenuItem from 'material-ui/MenuItem';
-import categoriesData from '../res/data/categories';
+import categoriesData,{mainMenu} from '../res/data/categories';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
 import {viewActions} from '../lib/local-t2-view';
 import Divider from 'material-ui/Divider';
 interface Props {
   appBarTitle(msg: string): any;
+  menuItems: any[];
   categories: any[];
   pathOnTouchTap(path:string): any
   appConfig: any;
@@ -24,7 +25,7 @@ interface State {
  
 }
 
-const categoryItem = (categories,pathOnTouchTap) => {
+const createMenuItems = (categories,pathOnTouchTap) => {
 
   const secretTap = (path) => {
     const tapMax = 3;
@@ -36,12 +37,22 @@ const categoryItem = (categories,pathOnTouchTap) => {
       }
     }
   }
+
   return(
         <MenuDrawer pathOnTouchTap={pathOnTouchTap}>
           {categories.map(cat => {
-            return <MenuItem key={cat.id} primaryText={cat.title} onTouchTap={pathOnTouchTap(cat.path)} />
+   
+            switch(cat.type){
+              case 'divider':
+                return <Divider />;
+              case 'link':
+                return <MenuItem key={cat.item.id} primaryText={cat.item.title} onTouchTap={pathOnTouchTap(cat.item.path)} />;
+              case 'link_absolute':
+                return <MenuItem key={cat.item.id} primaryText={cat.item.title} href={cat.item.path} />;
+            }
+
           })}
-          <Divider />
+          
           <MenuItem innerDivStyle={{color: 'grey'}} key='version_num' primaryText={'v1.0.0'} onTouchTap={secretTap('debug')} />
         </MenuDrawer>
           );
@@ -54,9 +65,9 @@ const backIcon = (path) => {
 class AppContainer extends React.Component<Props, State>{
   render(){
     
-    const {categories,pathOnTouchTap,appConfig,parentRoute,flashMessage} = this.props;
+    const {menuItems, categories, pathOnTouchTap,appConfig,parentRoute,flashMessage} = this.props;
 
-    const leftIcon = !parentRoute ? categoryItem(categories,pathOnTouchTap) : backIcon(parentRoute.pathname) ;
+    const leftIcon = !parentRoute ? createMenuItems(menuItems,pathOnTouchTap) : backIcon(parentRoute.pathname) ;
     return <AppBarPage leftIcon={leftIcon} categories={categories} pathOnTouchTap={pathOnTouchTap} appConfig={appConfig} flashMessage={flashMessage}>
               {this.props.children}
            </AppBarPage>
@@ -65,6 +76,7 @@ class AppContainer extends React.Component<Props, State>{
 
 const stateToProps = (state) => {
   return {
+    menuItems: mainMenu,
     categories: categoriesData,
     appConfig: {
       parentSite: 'http://afterdeployment.dcoe.mil'
@@ -75,10 +87,12 @@ const stateToProps = (state) => {
 }
 const dispatchToProps = (distatch,ownProps) => {
   return {
-    pathOnTouchTap: (path) => {
+    pathOnTouchTap: (path,preventDefault = true) => {
       return (event) => {
-        event.preventDefault();
-        event.stopPropagation();
+        if(preventDefault ){
+          event.preventDefault();
+          event.stopPropagation();
+        }
         distatch(push(path));
       }
     }

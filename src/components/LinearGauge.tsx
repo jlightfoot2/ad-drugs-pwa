@@ -6,7 +6,9 @@ export interface MyProps {
   width?: any,
   result: any,
   minScore: number,
-  maxScore: number
+  maxScore: number,
+  middleScore: number,
+  highIsGood: boolean
 }
 
 export interface MyState {
@@ -39,8 +41,9 @@ export default class D3LinearaGauge extends React.Component<MyProps, MyState> {
     return {
       data: this.props.result,
       domain: {x: [this.props.minScore, this.props.maxScore], y: [0, 100]},
-      width: this.props.width || width - 20
-
+      width: this.props.width || width - 20,
+      middleScore: this.props.middleScore,
+      highIsGood: this.props.highIsGood
     };
   }
 

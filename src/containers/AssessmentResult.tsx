@@ -3,45 +3,6 @@ import {assessments, assessmentIds} from '../res/data/assessments';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
 
-const computeScore = (assessment,results) => {
-
-    function countCompleted (answers) {
-      var count = 0;
-      var totalCount = 0;
-      Object.keys(answers).map(function (v) {
-        if (answers[v]) {
-          count++;
-        }
-        totalCount++;
-      });
-      return {numAnswered: count, total: totalCount};
-    }
-
-    function tallyScore (answers, questions) {
-      var total = 0;
-   
-      Object.keys(questions).map(function (idx) {
-          let question = questions[idx];
-
-          let choiceValue = answers[question.id];
-          let choices = questions[idx].choices;
-          console.log(choiceValue);
-          console.log(choices);
-          if(choices){
-            choices.map((choice) => {
-              if(choice.value === choiceValue){
-                total += parseInt(choice.score);
-              }
-            });
-          }
-      });
-
-      return total;
-    }
-
-
-    return tallyScore(results,assessment.questions);
-}
 
 function getDescription(tally, assessment) {
 
@@ -67,7 +28,9 @@ const stateToProps = (state,ownProps) => {
     maxScore: assessment.maxScore,
     score: score,
     result: description,
-    assessment: assessment
+    assessment: assessment,
+    middleScore: assessment.middleScore,
+    highIsGood: assessment.scoringMode === 1
   }
 }
 const dispatchToProps = (dispatch) => {

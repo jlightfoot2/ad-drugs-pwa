@@ -26,17 +26,6 @@ import AppSnackBar from './AppSnackBar';
 //import Eula from './Eula';
 
 
-
-const categoryItem = (categories,pathOnTouchTap) => {
-  return(
-        <MenuDrawer pathOnTouchTap={pathOnTouchTap}>
-          {categories.map(cat => {
-            return <MenuItem key={cat.id} primaryText={cat.title} onTouchTap={pathOnTouchTap(cat.path)} />
-          })}
-        </MenuDrawer>
-          );
-}
-
 interface MyProps {
   
   appBarTitle?(msg: string): any;

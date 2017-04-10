@@ -16,12 +16,12 @@ export default {
     pathname: '/main/assessments',
     childrenIds: ['6']
   },
-  '3': {
-    id: '3',
+  '9': {
+    id: '9',
     name: 'Videos',
-    routes: ['/main/videos'],
+    routes: [new RegExp('/main/videos/[0-9]*')],
     level: 1,
-    pathname: '/main/videos',
+    pathname: '/main/videos/',
     childrenIds: ['5']
   },
   '4': {
@@ -43,10 +43,10 @@ export default {
   '5': {
     id: '5',
     name: 'Video',
-    routes: [new RegExp('/main/videos/[0-9]+')],
+    routes: [new RegExp('/main/video/[0-9]+')],
     level: 2,
     pathname: '/main/video',
-    childrenIds: []
+    childrenIds: [],
   },
   '6': {
     id: '6',

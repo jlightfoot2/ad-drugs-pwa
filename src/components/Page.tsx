@@ -6,7 +6,7 @@ import ArrowNext from 'material-ui/svg-icons/navigation/arrow-forward';
 import ArrowPrevious from 'material-ui/svg-icons/navigation/arrow-back';
 import ClearIcon from 'material-ui/svg-icons/content/clear';
 import IconButton from 'material-ui/IconButton';
-import {flexParentRowStyle, flexRowItemStyle} from './commonStyles'
+import {flexParentRowStyle, flexRowItemStyle} from './commonStyles';
 
 export interface Props { 
   page: {title: string,content: string};

@@ -27,7 +27,7 @@ class videoViewer extends React.Component<MyProps, MyState> {
   render () {
     let isOnline = true;
     var {video,screenWidth} = this.props;
-    console.log(screenWidth);
+
     var onlineVideo = <video width={screenWidth} src={video.src} poster={video.img} controls>
       Sorry, your browser doesn't support embedded videos.
     </video>;

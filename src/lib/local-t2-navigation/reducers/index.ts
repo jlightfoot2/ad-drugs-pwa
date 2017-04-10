@@ -80,8 +80,21 @@ function getParent (route,lastRoute) {
 function paths (state, action) {
   switch (action.type) {
     case LOCATION_CHANGE:
+      if(action.payload.action.toLowerCase() !== 'push'){
+        return state;
+      }
+     
       var newRoute = findRoute(action.payload.pathname);
       if (state.current && newRoute && newRoute.id !== state.current.id) {
+        return {
+          ...state,
+          current: {...newRoute, pathname: action.payload.pathname},
+          last: state.current,
+          parent: getParent(newRoute,state.current)
+        };
+      }
+      if (state.current && newRoute && newRoute.id === state.current.id && 
+          state.last.pathname !== newRoute.pathname) {
         return {
           ...state,
           current: {...newRoute, pathname: action.payload.pathname},
@@ -107,6 +120,7 @@ export const navigation = (state = navigatinDefaults, action) => {
         paths: paths(state.paths, action)
       };
     case LOCATION_CHANGE:
+      //console.log(LOCATION_CHANGE,action);
       if (action.payload.pathname !== state.paths.current) {
         return {...state, paths: paths(state.paths, action)};
       }

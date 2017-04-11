@@ -1,7 +1,7 @@
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-
+import Helmet from 'react-helmet';
 import {connect} from 'react-redux';
 import {flexParentRowCenterStyle, flexRowItemStyle} from './commonStyles'
 
@@ -37,6 +37,9 @@ class videoViewer extends React.Component<MyProps, MyState> {
     var content = typeof isOnline === 'undefined' || isOnline ? onlineVideo : offlineVideo;
     return (
       <div style={flexParentRowCenterStyle as any}>
+        <Helmet>
+            <title>{video.title}</title>
+        </Helmet>
         <div style={flexRowItemStyle as any}>
         {content}
         </div>

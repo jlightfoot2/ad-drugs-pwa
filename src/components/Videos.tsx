@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-
+import Helmet from 'react-helmet';
 import {GridList, GridTile} from 'material-ui/GridList';
 import { Link, browserHistory } from 'react-router';
 
@@ -36,6 +36,9 @@ export default class Videos extends React.Component<MyProps, MyState> {
 
     return (
     <div>
+        <Helmet>
+            <title>Videos</title>
+        </Helmet>
       <GridList
         cols={cols}
       >

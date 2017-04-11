@@ -1,4 +1,4 @@
-import VideosPager from '../components/VideosPager';
+import Videos from '../components/Videos';
 import {videos, videoIds} from '../res/data/video';
 import {connect} from 'react-redux';
 import { push } from 'react-router-redux';
@@ -21,23 +21,13 @@ const stateToProps = (state,ownProps) => {
   return {
     videos: videoIds.map(id => videos[id]),
     cols: getCols(state.device),
-    title: 'Alcohol & Drugs Videos',
-    resultsPerPage: 6,
-    page: typeof ownProps.params.pageOffset !== 'undefined' ? parseInt(ownProps.params.pageOffset) : 0
+    title: 'Alcohol & Drugs Videos'
   }
 }
 const dispatchToProps = (dispatch) => {
   return {
-    next: (currentPage: number) => {
-       let nextPage = currentPage + 1;
-       dispatch(push('/main/videos/' + nextPage));
-    },
-    prev: (currentPage: number) => {
-       let prevPage = currentPage - 1;
-       dispatch(push('/main/videos/' + prevPage));
-    }
   }
 }
 export default connect(stateToProps,dispatchToProps)
 
-(VideosPager);
+(Videos);

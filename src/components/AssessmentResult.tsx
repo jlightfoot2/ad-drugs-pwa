@@ -1,5 +1,5 @@
 import * as React from "react";
-import LinearGauge from './LinearGauge';
+import LinearGauge from 'local-t2-linear-gage';
 export interface Props { 
   appBarTitle(msg: string): any;
   minScore: number;

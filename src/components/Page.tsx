@@ -7,7 +7,7 @@ import ArrowPrevious from 'material-ui/svg-icons/navigation/arrow-back';
 import ClearIcon from 'material-ui/svg-icons/content/clear';
 import IconButton from 'material-ui/IconButton';
 import {flexParentRowStyle, flexRowItemStyle} from './commonStyles';
-
+import Helmet from 'react-helmet';
 export interface Props { 
   page: {title: string,content: string};
   numPages: number;
@@ -42,7 +42,9 @@ export default class Page extends React.Component<Props, State> {
       const nextButton = <IconButton disabled={!(pageIndex + 1 < numPages )} onTouchTap={next}><ArrowNext /></IconButton>;
       const navigation = getNavigation(previusButton,closeButton,nextButton);
         return (<div>
-
+                  <Helmet>
+                      <title>{page.title}</title>
+                  </Helmet>
                   {navigation}
 
                   <h2>{page.title}</h2>

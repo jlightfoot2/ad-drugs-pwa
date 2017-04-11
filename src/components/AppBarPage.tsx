@@ -9,6 +9,7 @@ import Paper from 'material-ui/Paper';
 import AppBar from 'material-ui/AppBar';
 import Toggle from 'material-ui/Toggle';
 import MenuItem from 'material-ui/MenuItem';
+import Helmet from 'react-helmet';
 import AppSnackBarContainer from 'local-t2-sw-redux/lib/containers/UpdateSnackBar';
 //import SnackBarNotice from './SnackBarNoticeComponent';
 //import AppBarMenuIcon from './AppBarMenuIconDrawer';
@@ -85,6 +86,13 @@ export default class AppBarPage extends React.Component<MyProps, MyState>{
     return (
        
         <div>
+            <Helmet
+                    titleTemplate="%s - Drugs Module"
+                    defaultTitle="Alcohol and Drugs Module"
+                    meta={[
+                      { name: 'description', content: 'Alcohol and Drugs Module' },
+                    ]}
+            />
             <AppBar
                 title={this.state.title}
                 titleStyle={{textAlign: 'center'}}

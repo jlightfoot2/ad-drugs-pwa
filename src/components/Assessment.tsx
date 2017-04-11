@@ -1,5 +1,6 @@
 import * as React from "react";
 import Form, {ValidationResultInterface} from './Form';
+import Helmet from 'react-helmet';
 export interface ItemInterface{
   title: string;
   questions: any[];
@@ -53,6 +54,14 @@ export default class Assessment extends React.Component<Props, State> {
     render() {
         const {item, submitData, validateData,cancel,values} = this.props;
         const {questions} = this.state;
-        return (<Form values={values} handleChange={this.handleChange} items={questions} cancel={cancel} validateData={validateData} submitData={submitData} />);
+        return (
+          <div>
+                  <Helmet>
+                      <title>{item.title}</title>
+                  </Helmet>
+                  <Form values={values} handleChange={this.handleChange} items={questions} cancel={cancel} validateData={validateData} submitData={submitData} />
+          </div>
+          
+          );
     }
 }

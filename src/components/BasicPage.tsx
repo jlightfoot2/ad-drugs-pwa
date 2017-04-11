@@ -2,6 +2,7 @@ import * as React from "react";
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import { Link } from 'react-router';
 import FlatButton from 'material-ui/FlatButton';
+import Helmet from 'react-helmet';
 
 export interface Props { 
   appBarTitle(msg: string): any;
@@ -47,6 +48,10 @@ export default class BasicPage extends React.Component<Props, State> {
               />
       }
       return (
+              <div>
+                <Helmet>
+                    <title>{page.title}</title>
+                </Helmet>
                 <Card>
                     {cardHeader}
                     
@@ -59,6 +64,7 @@ export default class BasicPage extends React.Component<Props, State> {
                       {actions.map(act => <FlatButton key={act.label} onTouchTap={act.action} label={act.label} />)}
                     </CardActions>
                 </Card>
+               </div>
               );
     }
 }

@@ -5,6 +5,7 @@ import Page from './Page';
 import Paper from 'material-ui/Paper';
 import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
+import Helmet from 'react-helmet';
 
 export interface Props { 
   appBarTitle(msg: string): any;
@@ -90,6 +91,9 @@ export default class Book extends React.Component<Props, State> {
         if(!this.state.isOpen){
           content = pageMenu(book.pages,this.handlePageClick);
           return (<div>
+                      <Helmet>
+                          <title>{book.title}</title>
+                      </Helmet>
                       <BookCover book={book} />
                       
                         {content}

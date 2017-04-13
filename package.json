@@ -49,6 +49,7 @@
     "@types/react-router-redux": "^4.0.41",
     "@types/react-tap-event-plugin": "0.0.30",
     "@types/systemjs": "^0.20.1",
+    "babel-polyfill": "^6.23.0",
     "babylonjs": "^2.5.0",
     "d3": "^4.7.3",
     "local-t2-sw-redux": "*",

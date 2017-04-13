@@ -7,6 +7,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin'),
 var CleanWebpackPlugin = require('clean-webpack-plugin');   
 module.exports = {
     entry: [
+        'babel-polyfill',
         "./src/index.tsx"
     ],
 
